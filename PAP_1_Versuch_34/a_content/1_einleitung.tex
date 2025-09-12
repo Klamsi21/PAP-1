@@ -3,22 +3,75 @@
 
 
 \section{Messverfahren}
+Für das Experiment wird ein Spektrophotometer, welches aus einer Lampe, einer Linse, einem Küvettenhalter und einem
+Gitterspektrometer besteht. In dem Gitterspektrometer wird das Licht auf einen CCD Sensor gestreut und damit die
+Intensität des Lichts gemessen.
+
+\subsection{Messung des Absorptionsspektrums}
+ZU Beginn wird die 6 cm Küvette mit fester Konzentration Kaliumpermanganat verwendet um mit dem Gitterspektrometer
+die Wellenlängen der Absoptionsmaxima zu bestimmen. Zuvor wird das Spektrometer mit einer Dunkelmessung und 
+einer Messung ohne Küvette kalibriert.
+
+\subsection{Absorption in Abhängigkeit der Küvettenlänge}
+Für diese Messung wurde die Menge des Absorbierten Lichts bei einer festen Wellenlänge und varrierter
+Küvettenlänge gemessen. Dies wurde für jede Küvette fünf mal wiederholt.
+
+\subsection{Absorption in Abhängigkeit der Konzentration}
+
+Für diese Messung wurde bei konstanter Wellenlänge und variabler Konzentration gemessen. Dabei wurden jeweils fünf Messungen
+durchgefüht und danach die Kaliumpermanganatkonzentration erhöht.
 
 
 
 \section{Grundlagen aus der Physik}
 
+\subsection{Küvette}
+Bei dem Durchlaufen des Lichts durch die Küvette wird das Licht leicht gebeugt, da die Küvette nicht Fehlerfrei ist.
+Aus dem Messen der Durchmesser der Lichtkegel mit Küvellte $D_{mK}$ und ohne Küvette $D_{oK}$ lässt sich die Ablenkung berechnen und eliminieren:
 \begin{equation}
     I_{korr} = I \cdot \frac{D_{mK}^2}{D_{oK}^2}
     \label{eq:Ikorr}
 \end{equation}
 
+\subsection{Stoffmengee und Konzentration}
+Ein mol enpricht $6,022 \cdot 10^{23}$ Teilchen. Die Konzentration beschreibt die Anzahl von
+Teilchen pro Volumeen. Dabei ist die Einheit $\tfrac{mol}{l}$.
+Um bei einem hinzugefügten Volumen $V_j$ der Kaliumpermanganatlösung die Konzentration
+zu bestimmen wird mithilfe des Ausgabsvolumen $V_0$, den einzel Volumina $V_j$ und der 
+Konzentration $\tilde{c}$ des konzentrierten Kaliumpermangantas folgende Formal angewendet:
 \begin{equation}
     c = \tilde{c} \frac{\sum_{i=1}^n V_i}{V_0 + \sum_{i=1}^n V_i}
     \label{eq:Konzentration}
 \end{equation}
 
+\subsection{Das Lambertsche Absorptionsgesetz}
+Das Lambertsche Absorptionsgesetz vermittelt das fundamentale Verständniss der Lichtabsorption
+in Lösungen. Nach diesem nimmt die Intensität exponentiell über den Verlauf durch das Medium ab.
+Daraus folgt:
+
+\begin{equation}
+    I = I_0 \cdot e^{-kl}
+\end{equation}
+Dabei sind:
+\begin{itemize}
+    \item $I_0$ die Ausgangsintensität
+    \item $k$ den Absoptionskoeffizienten
+    \item $l$ die durchschrittene Länge in der Lösung
+\end{itemize}
+
+
+\subsection{Das Gesetz von Beer}
+In einer verdünnten Lösung ist der Absorptionkoeffizient $k'$ proportional zur Konzentration $c$.
+Diese unterscheiden sich in einem Faktor $\epsilon$ dem molaren Extinktionskoeffizienten. Diese
+ist eine Stoffkonstante, welche die Absorption des Lichts einer bestimmten Wellenlänge angibt.
+
 \begin{equation}
     k' = \epsilon \cdot c
     \label{eq:dekAbsorp}
 \end{equation}
+
+Aus der Verknüpfung dieser Beiden Gesetze folgt:
+\begin{equation}
+    I = I_0 \cdot 10^{-\epsilon k l}
+\end{equation}
+Bei der umrechnung in die Zehner-Basis wird $k' = \log(e) k$ verwendet.

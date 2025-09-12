@@ -1,3 +1,23 @@
+\begin{figure}[h!]
+    \centering
+    \includegraphics[page=1, width=0.95\textwidth,]{Netzpapiere_BiotechII.pdf}
+    \caption{Diagramm 1}
+\end{figure}
+\newpage
+\begin{figure}[h!]
+    \centering
+    \includegraphics[page=2, width=0.95\textwidth,]{Netzpapiere_BiotechII.pdf}
+    \caption{Diagramm 2}
+\end{figure}
+\newpage
+\begin{figure}[h!]
+    \centering
+    \includegraphics[page=1, width=0.95\textwidth,]{Marci Nr1.2.pdf}
+    \caption{Druck Absorptionsspektrum}
+\end{figure}
+\newpage
+
+
 \section{Vorbemerkung}
 Das Gitterspektromer wiß im Verlauf der Durchführum mehrmals Fehlerhafte Messungen auf, weshalb der Intensitätswert für die 3 cm Küvette nicht verwendet wird.
 
@@ -10,7 +30,7 @@ Das Gitterspektromer wiß im Verlauf der Durchführum mehrmals Fehlerhafte Messu
         \toprule 
         Messung & Mittelwert Intensität $\overline{I}$[counts] & Abweichung $\sigma$\\
         \midrule
-        1,5 cm & 63426 & 32 \\
+        1,5 cm & 63430 & 30 \\
         3 cm & 61555 & 6 \\
         6 cm & 23997 & 8 \\
         12 cm & 5703 & 13 \\
@@ -43,13 +63,13 @@ Daraus ergiebt sich für den korrigierten Intensitätswert der 24cm Küvette:
     \begin{tabular}{c c c c c}
         
         \toprule 
-        Nr. & Volumen[ml] & Abweichung[ml] & Konzentration[$\tfrac{mol}{l} \cdot 10^{-6}$] & Fehler[$\tfrac{mol}{l} \cdot 10^{-6}$]\\
+        Nr. & Intensität[counts] & Abweichung[counts] & Konzentration[$\tfrac{mol}{l} \cdot 10^{-6}$] & Fehler[$\tfrac{mol}{l} \cdot 10^{-6}$]\\
         \midrule
-        $V_0$ & 21,00 & 0,05  & $ 0 $ & 0 \\
-        $V_1$  & 1,40 & 0,05  & $62,5$ & $2,1 $\\
-        $V_2$  & 1,60 & 0,05 & $125$ & $2,6$\\
-        $V_3$ & 4,00 & 0,05 & $250$ & $2,4$\\
-        $V_4$  & 14,00 & 0,05& $500$ & $1,3$\\
+        $V_0$ & 62943 &  18 & $ 0 $ & 0 \\
+        $V_1$  &  34240 &  30 & $62,5$ & $2,1 $\\
+        $V_2$  & 18030 & 13 & $125$ & $2,6$\\
+        $V_3$ & 5065 & 3 & $250$ & $2,4$\\
+        $V_4$  & 513 & 3 & $500$ & $1,3$\\
         \bottomrule
         
     \end{tabular}
@@ -69,7 +89,7 @@ Wobei $V_j$ die einzel Volumina sind und $V_{tot} = \sum_{j=0}^i V_j$ also das G
 Zu bestimmung des dekadischen Absoptionskoeffizienten $k'$ wird die Steigung der Trendgeraden aus Diagramm 1 betrachtet.
 Da es sich hier um eine logarithmische Skala handelt wird folgende Formel verwendet:
 \begin{equation}
-    k' = \frac{\log(I_2)-\log(I_2)}{\Delta l}
+    k' = \frac{\log(I_2)-\log(I_1)}{\Delta l}
 \end{equation}
 
 \[ \underline{\underline{k' = (0,1059 \pm 0,0011) \tfrac{1}{cm}}} \]
@@ -100,4 +120,28 @@ oder
 \[ \underline{\underline{\epsilon =( 2118 \pm 22) \cdot 10^3\tfrac{\text{cm}^2}{mol}}}\]
 
 \section{Auswertung Beer Gerade}
+
+Bei der Auswertung der Beer Geraden wurde mithilfe der Steigung $\frac{1}{c}$ c
+bestimmt. Dabei gilt:
+
+\begin{equation}
+    \frac{1}{c} = \frac{\log(I_2)-\log(I_1)}{\Delta c}
+\end{equation}
+
+\[ \frac{1}{c} = 4360 \pm 50 \tfrac{l}{mol}\]
+
+\begin{equation}
+    \Delta(\frac{1}{c}) = \frac{1}{c} - (\frac{1}{c})_{fehler}
+\end{equation}
+
+\subsection{Berechnung $\epsilon$}
+
+Daraus lässt sich nun mit Gelcihung \ref{eq:dekAbsorp} und $k' = \frac{1}{l}$ mit $l = 1,5 cm$
+der Extinktionskoeffizient $\epsilon$ bestimmen.
+
+\[ \underline{\underline{\epsilon = 2900 \pm 30 \tfrac{L}{mol \cdot \text{cm}}}}\]
+oder:
+\[ \underline{\underline{\epsilon = 2900 \pm 30 \cdot 10^3\tfrac{\text{cm}^2}{mol}}}\]
+
+Das entspricht, verglichen mit dem Wert der Lambert-Geraden, eine Abweichung von $20 \sigma$.
 
