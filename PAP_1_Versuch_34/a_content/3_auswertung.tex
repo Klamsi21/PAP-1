@@ -8,7 +8,7 @@ Das Gitterspektromer wiß im Verlauf der Durchführum mehrmals Fehlerhafte Messu
     \begin{tabular}{c c c c c}
         
         \toprule 
-        Messung & Mittelwert Intensität $\overline{I}$ & Abweichung $\sigma$\\
+        Messung & Mittelwert Intensität $\overline{I}$[counts] & Abweichung $\sigma$\\
         \midrule
         1,5 cm & 63426 & 32 \\
         3 cm & 61555 & 6 \\
@@ -64,7 +64,40 @@ Für den Fehler ergibt sich:
 
 Wobei $V_j$ die einzel Volumina sind und $V_{tot} = \sum_{j=0}^i V_j$ also das Gesamtvolumen.
 
-\section{Aufgabe I}
+\section{Auswerung Lambert Gerade}
+\subsection{Bestimmung $k'$}
+Zu bestimmung des dekadischen Absoptionskoeffizienten $k'$ wird die Steigung der Trendgeraden aus Diagramm 1 betrachtet.
+Da es sich hier um eine logarithmische Skala handelt wird folgende Formel verwendet:
+\begin{equation}
+    k' = \frac{\log(I_2)-\log(I_2)}{\Delta l}
+\end{equation}
+
+\[ \underline{\underline{k' = (0,1059 \pm 0,0011) \tfrac{1}{cm}}} \]
+
+Dabei wurde $\Delta a$ berechnet durch:
+
+\begin{equation}
+    \Delta k' = k' - k'_{fehler}
+\end{equation}
+
+Wobei $k'_{fehler}$ für die Steigung der Fehlergeraden steht.
+
+\subsection{Bestimmung $\epsilon$}
+
+Da die Konzentration $c = 5 \cdot 10^{-5} \tfrac{mol}{l}$ der Küvetten bekannt ist.
+Lässt sich der Extinktionskoeffizient $\epsilon$ mit Gleichung \ref{eq:dekAbsorp} berechnen. Der Fehler ist durch folgende Gleichung gegeben:
+\begin{equation}
+    \Delta \epsilon = \frac{\Delta k'}{c}
+\end{equation}
+
+Daraus ergibt sich für $\epsilon$:
+
+\[ \underline{\underline{\epsilon = (2118 \pm 22) \tfrac{L}{mol \cdot \text{cm}}}}\]
+
+oder
 
 
+\[ \underline{\underline{\epsilon =( 2118 \pm 22) \cdot 10^3\tfrac{\text{cm}^2}{mol}}}\]
+
+\section{Auswertung Beer Gerade}
 
