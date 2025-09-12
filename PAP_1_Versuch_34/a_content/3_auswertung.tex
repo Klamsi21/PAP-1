@@ -1,0 +1,70 @@
+\section{Vorbemerkung}
+Das Gitterspektromer wiß im Verlauf der Durchführum mehrmals Fehlerhafte Messungen auf, weshalb der Intensitätswert für die 3 cm Küvette nicht verwendet wird.
+
+\subsection{Ergänzung Messprotokoll Aufgabe 2}
+\begin{table}[h!]
+    \centering
+    \textbf{Ergänzung Tabelle 2} \\ \smallskip
+    \begin{tabular}{c c c c c}
+        
+        \toprule 
+        Messung & Mittelwert Intensität $\overline{I}$ & Abweichung $\sigma$\\
+        \midrule
+        1,5 cm & 63426 & 32 \\
+        3 cm & 61555 & 6 \\
+        6 cm & 23997 & 8 \\
+        12 cm & 5703 & 13 \\
+        24 cm & 321,7 & 1,7 \\
+        \bottomrule
+        
+    \end{tabular}
+    \caption{}
+\end{table}
+
+Zu berücksichtigen ist ebenfalls, dass die Küvetten einen
+Fehler haben, wodurch das Licht nicht perfekt Beugungsfrei
+durch diese geleitet wird. Deshalb muss diese, bei der 24cm Küvette mit berechnet werden. Dieser wird wird nach Gleichung \ref{eq:Ikorr} berechnet:
+
+Daraus folgt für den Fehler:
+
+\begin{equation}
+    \Delta I_{korr} = \sqrt{(\frac{D_{mK}^2}{D_{oK}^2} \Delta I)^2 + (2\frac{I \cdot D_{mK}^2}{D_{oK}^3}\Delta D_{oK})^2 + (2 \frac{I \cdot D_{mK}}{D_{oK}2} \Delta D_{mK})^2}
+\end{equation}
+
+Daraus ergiebt sich für den korrigierten Intensitätswert der 24cm Küvette:
+
+\[ I_{korr} = 276 \pm 3 \]
+
+\subsection{Ergänzung Messprotokoll Aufgabe 3}
+
+\begin{table}[h!]
+    \centering
+    \textbf{Ergänzung Aufgabe 3} \\ \smallskip
+    \begin{tabular}{c c c c c}
+        
+        \toprule 
+        Nr. & Volumen[ml] & Abweichung[ml] & Konzentration[$\tfrac{mol}{l} \cdot 10^{-6}$] & Fehler[$\tfrac{mol}{l} \cdot 10^{-6}$]\\
+        \midrule
+        $V_0$ & 21,00 & 0,05  & $ 0 $ & 0 \\
+        $V_1$  & 1,40 & 0,05  & $62,5$ & $2,1 $\\
+        $V_2$  & 1,60 & 0,05 & $125$ & $2,6$\\
+        $V_3$ & 4,00 & 0,05 & $250$ & $2,4$\\
+        $V_4$  & 14,00 & 0,05& $500$ & $1,3$\\
+        \bottomrule
+        
+    \end{tabular}
+    \caption{}
+\end{table}
+
+Dabei wurde die Konzentration mit Gleichung \ref{eq:Konzentration} berechnet.
+Für den Fehler ergibt sich:
+\begin{equation}
+    \Delta c_i = \frac{\tilde{c}}{V_{tot}^2}\left(V_0^2 \sum_ {j=1}^i\Delta V_j^2 + (V_{tot}- V_0)^2\Delta V_0^2\right)^{\tfrac{1}{2}}
+\end{equation}
+
+Wobei $V_j$ die einzel Volumina sind und $V_{tot} = \sum_{j=0}^i V_j$ also das Gesamtvolumen.
+
+\section{Aufgabe I}
+
+
+

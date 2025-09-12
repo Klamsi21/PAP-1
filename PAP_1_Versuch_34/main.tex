@@ -1,0 +1,108 @@
+% -------------------------------------
+% |   Made with Hate by Captain Joni  | 
+% -------------------------------------
+
+
+
+\documentclass{include/berichtclass}
+\usepackage{wrapfig}
+\usepackage[numbers]{natbib}
+
+
+
+
+\SelectLanguage{ngerman}
+
+
+%--------------------
+%|   Definitionen   |
+%--------------------
+
+
+\newcommand{\abbildung}[4]{
+	\begin{figure}[ht]
+		\centering
+  		\includegraphics[width=#1\textwidth]{#2}
+		\caption{#3}
+		\label{#4}
+	\end{figure}
+}
+
+
+
+%% -----------------------------------------------
+%% |    Einstellungen zu jedem Versuch           |
+%% -----------------------------------------------
+
+
+\newcommand{\versuch}{Versuch 12 - Trägheitsmoment}
+\newcommand{\datum}{12.9.2025}
+
+
+%  ---------------------
+% | Einmal Einstellungen |
+%  ----------------------
+\newcommand{\name}{Paul Saß}
+\newcommand{\gruppe}{9}
+\newcommand{\Kurs}{Vormittags}
+\newcommand{\tutor}{Marcel Zymela}
+
+
+
+
+
+
+%% ------------------------------
+%% |    Versuchsausarbeitung    |
+%% ------------------------------
+\begin{document}
+    % Titlepage
+ 
+    \FrontMatter
+    \input{include/titlepage}
+    \begingroup \let\clearpage\relax
+
+    \pagestyle{plain}
+
+
+    
+    \newpage
+    \tableofcontents
+    \endgroup
+    
+
+    % Contents
+    \MainMatter
+    \begingroup
+    \let\clearpage\relax
+
+
+
+
+
+% Die Texte werden in den einzelnen Dateien eingefügt.
+    \chapter{Einleitung}
+    \input{a_content/1_einleitung}
+    
+    \chapter{Durchführung}
+    \input{a_content/2_durchfuehrung}
+    \newpage
+    \chapter{Auswertung}
+    \input{a_content/3_auswertung}
+    
+    \chapter{Zusamenfassung und Diskussion}
+    \input{a_content/4_diskussion}
+
+    \endgroup
+
+    \newpage
+    \begingroup \let\clearpage\relax  
+
+
+    \endgroup
+
+\end{document}
+
+% ---------------------------
+% |   Made by Captain Joni  | 
+% ---------------------------
