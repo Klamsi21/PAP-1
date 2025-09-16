@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1757935986.38511 "/Users/paul/Documents/LaTeX/PAP_1_Versuch_34/main.tex" "main.pdf" "main" 1757935992.4783 0
+["pdflatex"] 1758018494.68727 "/Users/paul/Documents/LaTeX/PAP_1_Versuch_34/main.tex" "main.pdf" "main" 1758018499.3083 0
   "/Users/paul/Documents/LaTeX/PAP_1_Versuch_34/main.tex" 1757934154.7887 1891 9e60e90e2dda7e67380849a9d3e90cce ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1202520719 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
@@ -204,14 +204,14 @@
   "Versuch34Dias.pdf" 1757935426 765902 ea6c06ca78ffca81e4c3ace7c323d9ce ""
   "a_content/1_einleitung.tex" 1757935975.61597 4009 8b96b20a65e4856d88806563ff4b412c ""
   "a_content/2_durchfuehrung.tex" 1757698631.35437 1039 aaeb1da605c7df6f433a1823f7fdafe0 ""
-  "a_content/3_auswertung.tex" 1757935977.50686 5304 5b37c09a3416156f2e6955014988df55 ""
+  "a_content/3_auswertung.tex" 1758018489.18031 5377 47235506b5ed13d7996d495f39241d40 ""
   "a_content/4_diskussion.tex" 1757935469.52358 1547 efac4b8f2fbaccc70d4eab5e727fa191 ""
   "include/berichtclass.cls" 1757935980.39245 13947 363bba0a81889b7acd30b436e7a092a0 ""
   "include/titlepage.tex" 1757322132 442 3effe13a9f1a7c28acbab1c3b82df085 ""
-  "main.aux" 1757935992.0613 16930 38fa8637901308a65ef0ceb4d03869ae "pdflatex"
-  "main.out" 1757935989.90267 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.aux" 1758018498.93612 16930 0c388acfa730f1048b23d4ec600f59d5 "pdflatex"
+  "main.out" 1758018497.41973 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "main.tex" 1757934154.7887 1891 9e60e90e2dda7e67380849a9d3e90cce ""
-  "main.toc" 1757935992.07057 2568 8b36c5565eb8e89214b240c76cccfb57 "pdflatex"
+  "main.toc" 1758018498.94331 2568 8b36c5565eb8e89214b240c76cccfb57 "pdflatex"
   (generated)
   "main.aux"
   "main.log"
