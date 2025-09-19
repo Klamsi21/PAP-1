@@ -1,8 +1,8 @@
-PWD /Users/paul/Documents/LaTeX/PAP_1_Versuch_42
+PWD /Users/paul/Documents/Documents - Paul's MacBook Air/LaTeX/PAP_1_Versuch_42
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/paul/Documents/LaTeX/PAP_1_Versuch_42/main.tex
+INPUT /Users/paul/Documents/Documents - Paul's MacBook Air/LaTeX/PAP_1_Versuch_42/main.tex
 OUTPUT main.log
 INPUT ./include/berichtclass.cls
 INPUT include/berichtclass.cls
@@ -460,6 +460,8 @@ INPUT ./a_content/1_einleitung.tex
 INPUT ./a_content/1_einleitung.tex
 INPUT ./a_content/1_einleitung.tex
 INPUT a_content/1_einleitung.tex
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr6.tfm
 INPUT ./a_content/2_durchfuehrung.tex
@@ -467,16 +469,14 @@ INPUT ./a_content/2_durchfuehrung.tex
 INPUT ./a_content/2_durchfuehrung.tex
 INPUT ./a_content/2_durchfuehrung.tex
 INPUT a_content/2_durchfuehrung.tex
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT ./a_content/3_auswertung.tex
 INPUT ./a_content/3_auswertung.tex
 INPUT ./a_content/3_auswertung.tex
 INPUT ./a_content/3_auswertung.tex
 INPUT a_content/3_auswertung.tex
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc
 INPUT ./a_content/4_diskussion.tex
 INPUT ./a_content/4_diskussion.tex
