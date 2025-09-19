@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1758036827.90962 "/Users/paul/Documents/LaTeX/PAP_1_Versuch_35/main.tex" "main.pdf" "main" 1758036835.85299 0
-  "/Users/paul/Documents/LaTeX/PAP_1_Versuch_35/main.tex" 1757964999.60058 1861 0deb7e0f1126357c483019c00ab34a93 ""
+["pdflatex"] 1758275467.05316 "/Users/paul/Documents/LaTeX/PAP_1_Versuch_35/main.tex" "main.pdf" "main" 1758275473.46611 0
+  "/Users/paul/Documents/LaTeX/PAP_1_Versuch_35/main.tex" 1758275466.57319 1921 aca5946716931291da2ebc14e5367f77 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1202520719 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -194,16 +194,18 @@
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1757589673 3345721 82c057e5ac173ac088ef6e97ae3dd86e ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "35-Skizze.jpeg" 1758016227 226222 5672ffd6d1f7ea987b7ca5628be40af8 ""
+  "Versuch35.pdf" 1758197080 11316183 18d09e7cc9f319751a36e6d658e1434a ""
+  "Versuch35Dias.pdf" 1758272555 2031922 aadf0d003a55d01a3d31aa3963f9e32a ""
   "a_content/1_einleitung.tex" 1758036820.61367 5215 ef6fe901b230a76e8a6171349b944bdd ""
-  "a_content/2_durchfuehrung.tex" 1758036818.56206 25 051901c3fb9bfe2cdab50305907e8c94 ""
-  "a_content/3_auswertung.tex" 1758036822.33193 9684 3d4cbb85c8bebc68f31004bdc2be424e ""
+  "a_content/2_durchfuehrung.tex" 1758272772.97905 1046 c4ddc6047baa21db81e0e7c2bfb7e342 ""
+  "a_content/3_auswertung.tex" 1758272772.9996 10640 ed87c220f4ad50c3f058dd96fc1c91c7 ""
   "a_content/4_diskussion.tex" 1758036823.93647 1664 6096ebdb1bcce1887a280142f3ac409e ""
   "include/berichtclass.cls" 1758018230.62945 13947 363bba0a81889b7acd30b436e7a092a0 ""
   "include/titlepage.tex" 1757322132 442 3effe13a9f1a7c28acbab1c3b82df085 ""
-  "main.aux" 1758036834.62295 7511 37cbcf7a6dea5a9de07a7cc5c31ecefc "pdflatex"
-  "main.out" 1758036832.91516 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1757964999.60058 1861 0deb7e0f1126357c483019c00ab34a93 ""
-  "main.toc" 1758036834.68374 1050 33553d05ab5b4909e7cbab133fa784dd "pdflatex"
+  "main.aux" 1758275473.04422 9229 c13460bd099332b1f594a00fa9d082bd "pdflatex"
+  "main.out" 1758275470.89093 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1758275466.57319 1921 aca5946716931291da2ebc14e5367f77 ""
+  "main.toc" 1758275473.04941 1053 f48b05e26516aa99e9d67719704aa0d0 "pdflatex"
   (generated)
   "main.aux"
   "main.log"

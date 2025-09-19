@@ -9,7 +9,7 @@
 \usepackage[numbers]{natbib}
 \usepackage{float}
 \restylefloat{table}
-
+\renewcommand{\theequation}{\arabic{equation}}
 
 
 \SelectLanguage{ngerman}
@@ -36,8 +36,8 @@
 %% -----------------------------------------------
 
 
-\newcommand{\versuch}{Versuch 12 - Trägheitsmoment}
-\newcommand{\datum}{12.12.2024}
+\newcommand{\versuch}{Versuch 35 - Fotoeffekt}
+\newcommand{\datum}{15.9.2025}
 
 
 %  ---------------------
@@ -46,7 +46,7 @@
 \newcommand{\name}{Paul Saß}
 \newcommand{\gruppe}{9}
 \newcommand{\Kurs}{Vormittags}
-\newcommand{\tutor}{}
+\newcommand{\tutor}{Jonas Schweer}
 
 
 
@@ -84,7 +84,7 @@
 % Die Texte werden in den einzelnen Dateien eingefügt.
     \chapter{Einleitung}
     \input{a_content/1_einleitung}
-    
+    \newpage
     \chapter{Durchführung}
     \input{a_content/2_durchfuehrung}
     \newpage
