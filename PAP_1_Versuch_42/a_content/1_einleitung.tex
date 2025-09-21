@@ -16,7 +16,7 @@ wird vermittelt, dass Wärmekapazitäten Stoff und Temperaturabhängig sind.
 
 Verwendet wird in dem ersten Teil der Versuchs ein Wasserkalorimeter.
 Um am Ende die Wärmekapazitäten der Stoffe zu bestimmen werden die Gewichte dieser benötigt und zunächst der Wasserwert, also die Wärmekapazität des Kaloriemeters, bestimt.
-Dafür wird das Kaloriemeter mit etwa $50 ^\circ C$ warmen Wasser befüllt und in regelmäßigen Zeitabständen die Temperatur bestimmt.\\
+Dafür wird das Kaloriemeter mit etwa $50\ ^\circ C$ warmen Wasser befüllt und in regelmäßigen Zeitabständen die Temperatur bestimmt.\\
 
 Im zweiten Teil werden die großen Massen auf die Siedetemperatur von Wasser erhitzt. Anschließend werden sie in das Kaloriemeter gelassen, welches mit Wasser auf Zimmertemperatur gefüllt wirde.
 Darauf wird die sich einstellende Maximaltemperatur abgelesen und daraus mithilfe des Wasserwerts die Wärmekapazität der eintzelnen Proben bestimmt. \\
@@ -26,18 +26,79 @@ Diese werden in ein abgewogenes Dewargefäß mit flüssigem Stickstoff gelassen.
 Abschließend wird die Massendifferenz des Dewargefäßes bestimmt, welche der Menge des verdunsteten Stickstoffs entspricht.
 Damit werden erneut die Wärmekapazitäten berechnet.
 
-hh
+\section{Grundlagen der Physik}
 
+\subsection{Wärmekapazität}
 
+Fügt man einem Körper eine Wärme Mengenge $Q$ zu, erhöht sich seine Temperatur um $\Delta T$. Der Zusammenhang wird als Wärmekapazität $C$ beschrieben.
+Daraus abgeleitet werden die spezifischevWärmekapazität $c_m$ und die Molwärme $c_{mol}$.
 \begin{equation}
-    W=\frac{c_{w} \left(T - T_{1}\right) \left(  m_{w}- m_{k}\right)}{ T_{2}- T}
+    C = \frac{Q}{\Delta T}
+\end{equation}
+\begin{equation}
+    c_m = \frac{C}{m}
+\end{equation}
+\begin{equation}
+    c_{mol} = \frac{CM}{m}
+\end{equation}
+Mit $m$ als Masse und $M$ als molarer Masse.
+
+\subsection{Klassischer Festkörper/ Dulong-Petit}
+
+In einem klassischen Festkörper sind alle Atomrumpf schwingeungen nahezu harmonisch.
+Jeder Atomrumpf hat 3 Schwingungsfreiheitsgrade, weshalb ein mol $3N_A$ Freiheitsgrade besitzt, mit $N_A$ als Avogadrokonstante.+
+
+Daraus gilt nach dem Äquipartitionsprinzip, dass jeder Freiheitsgrad die mittlere Energie $\langle E \rangle = kT$ besitzt, wobei $k$ die Bolzmannkonstante beschreibt. Daraus folgt für
+gesamte innere Energie eines mols $U = 3kTN_A = 3RT$. $R = 8,314\ \tfrac{\text{J}}{mol \text{K}}$ beschreibt hier die universelle Gaskonstante.
+Daraus folgt für die molare Wärmekapazität:
+\begin{equation}
+    c_{mol,DP} = 3R
+\end{equation}
+\subsection{Verbesserung nach Einstein}
+Einstein quantisierte das Modell, da es bereits bei leichten Elementen bei Zimmertemperatur fehlerhaft war.
+Oszillatoren besitzen gequantete Energiezustände und eine Warscheilichkeit $w$, dass ein Zustand bei einer bestimmten Temperatur angeregt ist.
+Nun wurde für die Wärmekapazität pro mol $N_A$ unabhängige 3-dimensionale Oszillatoren mit derselben Eigenfrequenz betrachtet.
+Diese Sicht erklärte die Abhänigkeit der Wärmekapazität von der Temperatur.
+
+\subsection{Das Debye Modell}
+
+Debye erkannte, dass die Oszillatoren nicht als unabhängig betrachtet werden konnten, sonder stark gekoppelt waren.
+Die Schwingungsmoden werden heute Phononen genannt. Das heißt ein mol hat $3N_A$ unterschiedliche Schwingungsfrequenzen, welche bei der Grenzfrequenz $\omega_D$ bei $3N_A$ Schwingungszuständen abgeschnitten wurden.
+Nach Debyes Modell gab es nur noch einen materialabhängigen Parameter, die DEbye Temperatur $\Theta_D = \tfrac{\hbar \omega_D}{k}$ mit $\hbar$ als reduziertes Wirkunsquantum.
+Dementsprechend war die Wärmekapazität nur noch von $\frac{T}{\Theta_D}$ abhängig. Daher ist die Debye TEmperatur die charakterisierende Eigenschaft derr Wärmekapazität.
+
+\subsection{Wasserkalorimeter}
+Das Wasserkalorimeter besitzt eine eigene Wärmekapazität, den sog. Wasserwert. Dieser lässt sich durch folgenden Ausdruch berechnen.
+\begin{equation}
+    W=\frac{c_{w} \left(\overline{T} - T_{1}\right) \left(  m_{w}- m_{k}\right)}{ T_{2}- \overline{T}}
     \label{eq:Wasserwert}
 \end{equation}
-
+Dabei gelten die Bezeichnungen:
+\begin{itemize}
+    \item $c_w$ Wärmekapazität von Wasser
+    \item $m_w$ Masse befülltes Kalorimeter
+    \item $m_k$ Masse leeres Kalorimeter
+    \item $\overline{T}$ Gleichgewichtstemperatur
+    \item $T_1$ Anfangstemperatur Wasser
+    \item $T_2$ Anfangstemperatur Kalorimeter (Raumtemperatur)
+\end{itemize}
+\subsection{Wärmekapazität im Kalorimeter}
+Für die Wärmekapazität gemessein im Kaloriemeter gilt:
+\begin{equation}
+    c_x = \frac{(m_W c_W + W)(\overline{T} - T_2)}{m_x (T_1 - \overline{T})} \label{eq:KalC}
+\end{equation}
+Dabei gelten die gleichen bezeichnungen. Nur $T_1$ ist hier die Anfangstemperatur der Probe.
+\subsection{Siedetemperatur Wasser}
+Die Siedetemperatur von Wasser ist abhängig vom Umgebungsdruck. Ausgangspunkt sind $100 ^\circ C$ bei 1013hPa.
 \begin{equation}
     T = 100^\circ \text{C} + 0,0276 \frac{^\circ \text{C}}{\text{hPa}}(p -1014 \text{hPa})
     \label{eq:Siedetemperatur}
 \end{equation}
+\subsection{Wärmekapazität Stickstoff}
+Die Wärmekapazität bei der Stickstoffmessung kann durch die Massendifferenz $m_V$ des Stickstoffs bestimmt werden.
+$Q_V$ bezeichnet die Verdunstungsenergie, $m_x$ ist de Masse der Probe.
+$T_1$ ist die Temperatur der Probe und $T_2$ die Temperatur des Stickstoffs.
+Dabei gilt $Q_V = 199\ \tfrac{\text{J}}{\text{g}}$ und $T_2 = -195,8\  ^\circ \text{C}$.
 
 \begin{equation}
     c_x = \frac{Q_V m_V}{m_x(T_1-T_2)}

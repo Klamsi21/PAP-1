@@ -4,7 +4,7 @@ In Diagramm 1 wurden die gemessenen Temperaturen im Kalorimeter gegen die vergan
 stammen aus Tabelle 2. Durch verlängerung des linearen Anteils zum Anfangszeitpunkt $t = 0s$ konnte die Gleichgewichtstemperatur$\overline{T}$ abgelesen werden.
 Der Fehler wird mithilfe einer Fehlergeraden bestimmt. Durch die Differenz der Werte bei $t=0$ ergibt sich der Fehler:
 
-\[ \underline{\underline{\overline{T} = (48,6 \pm 0,4)^\circ C}}\]
+\[ \underline{\underline{\overline{T} = (48,6 \pm 0,4)^\circ \text{C}}}\]
 
 \begin{equation}
     \Delta \overline{T}= \overline{T}- \overline{T}_{Fehler}
@@ -12,7 +12,7 @@ Der Fehler wird mithilfe einer Fehlergeraden bestimmt. Durch die Differenz der W
 
 Aus der Gleichgewichtstemperatur $\overline{T}$ lässt sich die Wärmekapazität des Kalorimeter also der Wasserwert mit Gleichung \ref{eq:Wasserwert} berechnen:
 
-\[W= ( 95 \pm  17) \tfrac{J}{K}\]
+\[\underline{\underline{W= ( 95 \pm  17)\ \tfrac{\text{J}}{\text{K}}}}\]
 Der Fehler folgt nach dem Fehlerrechner aus dem Skript:
 \begin{equation}
     \frac{\Delta W}{W}=\sqrt{\frac{\Delta T^{2} \left(T_{2} - T_{1} \right)^{2}}{\left(T - T_{1}\right)^{2} \left(T - T_{2}\right)^{2}} + \frac{\Delta T_{1}^{2}}{\left(T - T_{1}\right)^{2}} + \frac{\Delta T_{2}^{2}}{\left(T - T_{2}\right)^{2}} + \frac{\Delta m_{k}^{2}}{\left(m_{k} - m_{w}\right)^{2}} + \frac{\Delta m_{w}^{2}}{\left(m_{k} - m_{w}\right)^{2}} + \frac{\Delta c_{w}^{2}}{c_{w}^{2}}}
@@ -23,11 +23,11 @@ Vergleicht man den erhaltenen Wert mit dem Literaturwert von $70 \ \tfrac{\text{
 \section{Aufgabe II}
 
 Für die Berechnung der spezifischen Wärme muss zuerst die Siedetemperatur des Wassers bei gemessenem Luftdruck berechnet werden. Dabei gilt nach Gleichung \ref{eq:Siedetemperatur}
-für dieSeiedetemperatur $T_1$ mit einem gemessen Luftdruck von $1012,3$hPa:
+für die Siedetemperatur $T_1$ mit einem gemessen Luftdruck von $1012,3$hPa:
 
 \[T_1 = (99,9806 \pm 0,0028) ^\circ \text{C}\]
 
-Daraus ergibt sich für die speziefische Wärmekapazität $c_m$ und die Molwärme $c_{mol} = c_m\cdot M$ mit M als molarer Masse:
+Daraus ergibt sich für die speziefische Wärmekapazität $c_m$ nach Gleichung \ref{eq:KalC} und die Molwärme $c_{mol} = c_m\cdot M$ mit M als molarer Masse:
 
 \begin{table}[h!]
     \centering
@@ -44,7 +44,7 @@ Daraus ergibt sich für die speziefische Wärmekapazität $c_m$ und die Molwärm
 Dadurch, dass beim Thermometer ein systematsicher Fehler vorhanden ist, wird zuerst die Differenz $A = \overline{T} - T_2$ berechnet, da sich dort dieser Fehler aufhebt.
 Bei der restlichen Fehlerrechnung wurde der systematische Fehler berücksichtigt.
 \begin{align}
-    (\frac{\Delta W}{W})^2 &=\frac{c_{w}^{2} \Delta m_{k}^{2}}{\left(W - c_{w} m_{k} + c_{w} m_{w}\right)^{2}} + \frac{c_{w}^{2} \Delta m_{w}^{2}}{\left(W - c_{w} m_{k} + c_{w} m_{w}\right)^{2}} \notag \\
+    (\frac{\Delta c_m}{c_m})^2 &=\frac{c_{w}^{2} \Delta m_{k}^{2}}{\left(W - c_{w} m_{k} + c_{w} m_{w}\right)^{2}} + \frac{c_{w}^{2} \Delta m_{w}^{2}}{\left(W - c_{w} m_{k} + c_{w} m_{w}\right)^{2}} \notag \\
     & + \frac{\Delta T^{2}}{\left(T - T_{2}\right)^{2}} + \frac{\Delta T_{2}^{2}}{\left(T - T_{2}\right)^{2}} + \frac{\Delta W^{2}}{\left(W - c_{w} m_{k} + c_{w} m_{w}\right)^{2}}\notag \\
     & + \frac{\Delta c_{w}^{2} \left(m_{k} - m_{w}\right)^{2}}{\left(W - c_{w} m_{k} + c_{w} m_{w}\right)^{2}} + \frac{\Delta m_{x}^{2}}{m_{x}^{2}} + \frac{\Delta A^{2}}{A^{2}}\notag\\
 \end{align}
