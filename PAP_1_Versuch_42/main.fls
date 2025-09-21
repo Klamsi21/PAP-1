@@ -483,6 +483,8 @@ INPUT ./a_content/3_auswertung.tex
 INPUT ./a_content/3_auswertung.tex
 INPUT ./a_content/3_auswertung.tex
 INPUT a_content/3_auswertung.tex
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmbx10.tfm
 INPUT ./a_content/4_diskussion.tex
 INPUT ./a_content/4_diskussion.tex
 INPUT ./a_content/4_diskussion.tex

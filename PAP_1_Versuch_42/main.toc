@@ -19,10 +19,10 @@
 \contentsline {section}{\numberline {3.2}Aufgabe II}{4}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Vergleiche}{5}{subsection.3.2.1}%
 \contentsline {section}{\numberline {3.3}Aufgabe III}{5}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Zusamenfassung und Diskussion}{7}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Zusammenfassung}{7}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Wasserwert}{7}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Spezifische Wärme Kalorimeter}{7}{section.4.3}%
-\contentsline {section}{\numberline {4.4}nicht konstante werte}{7}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Spezifische Wärme Stickstoff}{7}{section.4.5}%
+\contentsline {chapter}{\numberline {4}Zusamenfassung und Diskussion}{8}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Wasserwert}{8}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Spezifische Wärme Kalorimeter}{8}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Spezifische Wärme Stickstoff}{8}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Debye-Temperaturen}{8}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Zusammenfassung}{9}{section.4.5}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

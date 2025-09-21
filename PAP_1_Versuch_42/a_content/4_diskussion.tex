@@ -1,6 +1,3 @@
-\section{Zusammenfassung}
-
-
 
 \section{Wasserwert}
 
@@ -24,6 +21,48 @@ Besonders auffällig ist ebenfalls die hohe Abweichung von $70\sigma$ bei Graphi
 Das Problem bei der Dulong Petit methode ist, dass sie bei leichten Elementen wie Kohlenstoff versagt. Das kommt, da die
 Schwingungen sehr Hochfrequent sind und deshalb die Energiezustände nicht vollständig angeregt sondern quantisiert sind.
 
-\section{nicht konstante werte}
 
 \section{Spezifische Wärme Stickstoff}
+Zu erwarten ist, dass die gemessenen Kapazitäten etwas zu hoch sind.
+Der ausschlaggebenste Grund dafür wäre eine Verdunstung des Stickstoffs aufgrund des Kontaks zur Luft mit Zimmertemperatur.
+Dadurch steigt die Massendifferenz und demnach auch die berechnete Wärmekapazität. Ebenfalls kann Stickstoff beim Sieden aus dem Dewargefäß heraussprudeln,
+was ebenfalls zu einem erhöhten Massenverlust führt.
+Dieser Effekt ist auch bei dieser Messung zu erkennen:
+\begin{align}
+    \boxed{c_C = 0,5098 \pm 0,0023 \ \tfrac{\text{J}}{\text{gK}} \quad c_{Al} = 0,759 \pm 0,003 \ \tfrac{\text{J}}{\text{gK}} \quad C_{Pb} = 0,1298 \pm 0,0006 \ \tfrac{\text{J}}{\text{gK}}}
+\end{align}
+
+Das diese Werte zu klein sind erkennt man aber nicht direkt, da keine Literaturwerte als Referenz angegeben sind.
+Daher müssen dafür die Debye-Temperaturen betrachtet werden.
+
+\section{Debye-Temperaturen}
+Die abgelesenen Debye Temperaturen sind:
+\begin{align}
+    \boxed{\Theta_{C} = 80 \pm 18 \ \text{K} \quad \Theta_{Al} = 210 \pm 10 \ \text{K} \quad \Theta_{Pb} = 630 \pm 30 \ \text{K}}
+\end{align}
+
+Die Debye-Temperaturen sind direkt abhängig von dem Verhältnis der Wärmekapazitäten bei den beiden Messtemperaturen.
+Die Debye Temperatur von Blei kann mit einer Abweichung von $0,8 \ \sigma$ als genau betrachtet werden. Da dort ebenfalls der Wert der spezifischen Wärme
+als erfolgreich gemessen betrachtet wird, gilt hier auch für den Messwert bei Stickstoff, dass dieser erfolgreich gemessen wurde.
+Dies kann angenommen werden, da die Messtemperatur bei Stickstoff direkt abhänig von der Debye-Temperatur und der Wärmekapazität im Kalorimeter abhängt.\\
+
+Auffällig sind die Debye-Temperaturen von Aluminium und Graphit. Die Abweichungen betragen hier $22 \ \sigma$ und $50 \sigma$.
+Beim Aluminium ist auf einen Messfehler in der Stickstoffmessung zu schließen welcher auf die oben genannten systematischen Fehlerquellen zurückzuführen sein muss, da auch hier der
+Messwert aus dem Kalorimeter genau ist.\\
+Bei Graphit ist die Ermittlung der Fehlerquelle etwas komplexer wobei natürlich die gleichen systematischen Fehler wie für das Aluminium gelten.
+Jedoch gilt der Literaturwert zum Vergleich für Diamant, da Graphit keine einheitliche Debye-Temperatur festgesetzt ist.
+Aufgrund dessen ist als Fehlerquelle hier auch der Literaturwert zu berücksichtigen.
+Allerdings ist die Abweichung von $50 \ \sigma$ zu groß um es bei einer simplen Abweichung des Literaturwerts zu belassen.
+Die Messung muss hier als Fehlerhaft betrachtet werden. Bei Graphit wird der größte Fehler in dem unkontrollierten Verdunsten des Stickstoffs liegen.
+Da die Graphit-Ptobe am größten war, ist nicht auszuschließen, dass flüssiger Stickstoff durch das Sieden aus de mGefäß gelangt ist.
+
+\section{Zusammenfassung}
+
+Zusammenfassend lässt sich sagen, dass der Versuch im allgemeinen erfolgreich war.
+Die Werte lagen meist in dem 3 $\sigma$ der Literaturwerte. Daher können diese als Bestätigung der Literaturwerte angesehen werden.
+Jedoch sollte die Messung der Werde des Grphits widerholt werden, da dort der Wert der Debye-Temperatur sehr starrk von dem Rreferenzwert abweicht.\\
+
+Zu verbessern an der Vrsuchsdurchführung wäre das verwenden größerer Dewargefäße um einerseits die Isolation gegen
+die Umluft zu vebessern und andererseits das Risiko eines Massenverlustes durch das Überschwappen des siedenden Stickstoffs zu minimierren.\\
+Dazu kommt, dass das Thermometer teilweise sehr lang gebraucht hat um eine konstante Temperratur anzuzeigen. Dies könnte besonders in der Messung des Wasserwerts Fehlerr hinterlassen haben.
+Demenstprechend wäre ein Thermometer besser geeignet, dass sich schneller einstellt.
