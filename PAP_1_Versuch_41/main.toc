@@ -13,13 +13,12 @@
 \contentsline {chapter}{\numberline {2}Durchführung}{4}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Messprotokoll}{4}{section.2.1}%
 \contentsline {chapter}{\numberline {3}Auswertung}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Diagramm 1}{9}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Diagramm 2}{9}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Diagramm 3}{10}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Diagramm 4}{10}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Zusamenfassung und Diskussion}{12}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Diagramm 1}{12}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Diagramm 2}{12}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Diagramm 3}{12}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Diagramm 4}{13}{section.4.4}%
+\contentsline {section}{\numberline {3.1}Diagramm 2}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Diagramm 3}{14}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Diagramm 4}{14}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Zusamenfassung und Diskussion}{16}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Diagramm 1}{16}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Diagramm 2}{16}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Diagramm 3}{16}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Diagramm 4}{17}{section.4.4}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
