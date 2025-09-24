@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.11)  21 SEP 2025 19:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.11)  24 SEP 2025 15:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1239,6 +1239,8 @@ Package microtype Warning: I cannot find a spacing list for font
 
 
 [2{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}])
+
+[3]
 chapter 2.
 
 Class scrbook Warning: Redefinition of \@makechapterhead detected.
@@ -1251,9 +1253,39 @@ Class scrbook Warning: Redefinition of \@makechapterhead detected.
 (scrbook)              KOMA-Script and will not work with a coming version,
 (scrbook)              that will remove this deprecated code.
 
-(./a_content/2_durchfuehrung.tex)
+(./a_content/2_durchfuehrung.tex
+<42Protokoll.pdf, id=106, page=1, 597.51233pt x 845.0471pt>
+File: 42Protokoll.pdf Graphic file (type pdf)
+<use 42Protokoll.pdf, page 1>
+Package pdftex.def Info: 42Protokoll.pdf , page1 used on input line 4.
+(pdftex.def)             Requested size: 433.08868pt x 612.50807pt.
 
-[3]
+
+[4 <./42Protokoll.pdf>]
+<42Protokoll.pdf, id=501, page=2, 597.51233pt x 845.0471pt>
+File: 42Protokoll.pdf Graphic file (type pdf)
+<use 42Protokoll.pdf, page 2>
+Package pdftex.def Info: 42Protokoll.pdf , page2 used on input line 10.
+(pdftex.def)             Requested size: 455.8843pt x 644.75688pt.
+
+
+[5 <./42Protokoll.pdf>]
+<42Protokoll.pdf, id=1026, page=3, 597.51233pt x 845.0471pt>
+File: 42Protokoll.pdf Graphic file (type pdf)
+<use 42Protokoll.pdf, page 3>
+Package pdftex.def Info: 42Protokoll.pdf , page3 used on input line 16.
+(pdftex.def)             Requested size: 455.8843pt x 644.75688pt.
+
+
+[6 <./42Protokoll.pdf>]
+<42Protokoll.pdf, id=1665, page=4, 597.51233pt x 845.0471pt>
+File: 42Protokoll.pdf Graphic file (type pdf)
+<use 42Protokoll.pdf, page 4>
+Package pdftex.def Info: 42Protokoll.pdf , page4 used on input line 22.
+(pdftex.def)             Requested size: 433.08868pt x 612.50807pt.
+
+
+[7 <./42Protokoll.pdf>])
 chapter 3.
 
 Class scrbook Warning: Redefinition of \@makechapterhead detected.
@@ -1267,14 +1299,26 @@ Class scrbook Warning: Redefinition of \@makechapterhead detected.
 (scrbook)              that will remove this deprecated code.
 
 (./a_content/3_auswertung.tex
+<Verusch42Dia.pdf, id=2045, page=1, 597.23137pt x 845.1575pt>
+File: Verusch42Dia.pdf Graphic file (type pdf)
+<use Verusch42Dia.pdf, page 1>
+Package pdftex.def Info: Verusch42Dia.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 433.08868pt x 612.8847pt.
 
-[4]
 
-[5]
+[8 <./Verusch42Dia.pdf>]
 
-[6]
+[9]
 
-[7])
+[10]
+<Versuch42Dia2.jpeg, id=2078, 1340.00626pt x 1003.75pt>
+File: Versuch42Dia2.jpeg Graphic file (type jpg)
+<use Versuch42Dia2.jpeg>
+Package pdftex.def Info: Versuch42Dia2.jpeg  used on input line 140.
+(pdftex.def)             Requested size: 433.08868pt x 324.40761pt.
+
+
+[11 <./Versuch42Dia2.jpeg>])
 chapter 4.
 
 Class scrbook Warning: Redefinition of \@makechapterhead detected.
@@ -1294,14 +1338,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--48
 
 
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 61--64
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 59--62
 
  []
 
 )
 
-[9] (./main.aux)
+[13] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1310,18 +1354,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 37522 strings out of 473190
- 777398 string characters out of 5715800
- 1425279 words of memory out of 5000000
- 59931 multiletter control sequences out of 15000+600000
+ 37564 strings out of 473190
+ 778433 string characters out of 5715800
+ 1429279 words of memory out of 5000000
+ 59962 multiletter control sequences out of 15000+600000
  623953 words of font info for 148 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  122i,14n,121p,10998b,1293s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (11 pages, 256177 bytes).
+Output written on main.pdf (15 pages, 20157201 bytes).
 PDF statistics:
- 312 PDF objects out of 1000 (max. 8388607)
- 265 compressed objects within 3 object streams
- 59 named destinations out of 1000 (max. 500000)
- 39133 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 2267 PDF objects out of 2487 (max. 8388607)
+ 1561 compressed objects within 16 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 39171 words of extra memory for PDF output out of 42996 (max. 10000000)
 
