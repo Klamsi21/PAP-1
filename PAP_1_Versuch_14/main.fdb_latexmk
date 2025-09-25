@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1758815025.0902 "/Users/paul/Documents/Documents - Paul's MacBook Air/LaTeX/PAP_1_Versuch_14/main.tex" "main.pdf" "main" 1758815031.01972 0
-  "/Users/paul/Documents/Documents - Paul's MacBook Air/LaTeX/PAP_1_Versuch_14/main.tex" 1757322132 1814 87e30bbcd97dc156c5e898a089e48bff ""
+["pdflatex"] 1758822280.73087 "/Users/paul/Documents/Documents - Paul's MacBook Air/LaTeX/PAP_1_Versuch_14/main.tex" "main.pdf" "main" 1758822287.07761 0
+  "/Users/paul/Documents/Documents - Paul's MacBook Air/LaTeX/PAP_1_Versuch_14/main.tex" 1758818764.08397 1833 c72b1c2eb9d368541a174d1d0278eb82 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1202520719 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -191,16 +191,16 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1757590071 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1757589673 3345721 82c057e5ac173ac088ef6e97ae3dd86e ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "a_content/1_einleitung.tex" 1757322132 89 f66765e77ce2f8c39b62935f1186040a ""
+  "a_content/1_einleitung.tex" 1758821478.89739 4476 61ca232e8c17b25c4e145d0fee5f6053 ""
   "a_content/2_durchfuehrung.tex" 1757322132 45 f228caad179c3658a58f36a48de95e3f ""
-  "a_content/3_auswertung.tex" 1758815018.23166 1481 fe4185c193442bb8c62a88691c656787 ""
-  "a_content/4_diskussion.tex" 1757322132 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "a_content/3_auswertung.tex" 1758822273.55305 2513 b371ea02c09c5b1c2606e6adac8efea4 ""
+  "a_content/4_diskussion.tex" 1758820664.17363 172 f245a966b113b6aa07e6257f40584ba1 ""
   "include/berichtclass.cls" 1757322132 13947 363bba0a81889b7acd30b436e7a092a0 ""
   "include/titlepage.tex" 1757322132 442 3effe13a9f1a7c28acbab1c3b82df085 ""
-  "main.aux" 1758815030.63892 5351 7ad39d92975f1e9f413596faa42058ba "pdflatex"
-  "main.out" 1758815029.81941 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1757322132 1814 87e30bbcd97dc156c5e898a089e48bff ""
-  "main.toc" 1758815030.64338 920 beb9aea2ba250820658ff70d9f5f527d "pdflatex"
+  "main.aux" 1758822286.38169 8059 60e3a88edb4da1d82a79e1bac6a4bd2b "pdflatex"
+  "main.out" 1758822284.47447 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1758818764.08397 1833 c72b1c2eb9d368541a174d1d0278eb82 ""
+  "main.toc" 1758822286.39082 1374 d0c06a8d8634c2525d769094ca9e263b "pdflatex"
   (generated)
   "main.aux"
   "main.log"

@@ -1,8 +1,11 @@
 \section{Aufgabe I}
 
-\[g =9,83 \pm 0,13\]
+Mithilfe der ersten Messreihe wird $g$ nach Gleichung \ref{eq:Tnorm} berechnet.
+Dabei gilt für $T_0$ der genauere Fehler von $\Delta T_0 = 0,018\ \text{s}$ als Abweichung des Mittelwerts der fünf Messungen:
 
-Fehler:
+\[g =\SI{9,83 \pm 0,13 }{\frac{\meter}{\second^2}}\]
+
+Der Fehler wurde wie folgt berechnet:
 
 \begin{equation}
     \Delta g = 4\pi^2 \sqrt{\left(\frac{\Delta l}{T_0^2}\right)^2 + \left(\frac{2l}{T_0^3}\Delta T_0\right)^2}
@@ -10,18 +13,47 @@ Fehler:
 
 \section{Aufgabe II}
 
-\[ \delta = (6,0 \pm 0,9) \si{\cdot 10^{-3}\frac{1}{\second}}\]
+Zuerst wird aus Diagramm 1 die Halbwertszeit $t_{1/2}$ bestimmt. Damit lässt sich nach:
+\begin{equation}
+    \delta = \frac{\ln 2}{t_{1/2}}
+\end{equation}
 
-\[ \omega_0 = (3,24 \pm 0,07) \si{\Hz} \]
+die Dämpfungskonstante $\delta$ bestimmen:
+
+\[ \delta = (1,57 \pm 0,23) \si{\cdot 10^{-3}\frac{1}{\second}}\]
+
+Dabei gilt für den Fehler:
+\begin{equation}
+    \Delta \delta = \frac{\ln 2}{t_{1/2}^2}\Delta t_{1/2}
+\end{equation}
+
+$t_{1/2}$ kann aus $n_{1/2}$ bestimmt werden durch:
+\begin{align}
+    t_{1/2} &= n_{1/2} \cdot T_0 \\
+    \Delta t_{1/2} &= \Delta n_{1/2} \cdot T_0
+\end{align}
+
+\subsection{Bestimmung der Massen}
+
+Für die Masse allgemein gilt mit $\rho$ als Dichte und $V$ als Volumen:
+\begin{equation}
+    m = \rho V
+\end{equation}
+Damit gilt für die Kugel:
+
 \[m_k = (176 \pm 8) \si{\gram}\]
+Und für den Faden genähert als Zylinder mit Höhe $l'$:
 
 \[m_F = (0,2264 \pm 0,0004) \si{\gram}\]
 
+\[ \omega_0 = (3,24 \pm 0,07) \si{\Hz} \]
+
+
 \[ \overline{A} = (5,2 \pm 0,6) \si{\cm}\]
 
-\[\varphi_0 =( 0,055 \pm 0,006 )\si{\text{rad}}\]
+\[\varphi_0 =( 0,110 \pm 0,006 )\si{\text{rad}}\]
 
-\[g = 9,832 \pm 0,012\]
+\[g = \SI{9,834 \pm 0,012}{\frac{\meter}{\second^2}}\]
 
 \begin{align}
 \Delta g^{2} 

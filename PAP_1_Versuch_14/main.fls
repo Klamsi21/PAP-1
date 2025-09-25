@@ -374,6 +374,10 @@ INPUT ./a_content/1_einleitung.tex
 INPUT a_content/1_einleitung.tex
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc
 INPUT ./a_content/2_durchfuehrung.tex
 INPUT ./a_content/2_durchfuehrung.tex
 INPUT ./a_content/2_durchfuehrung.tex
@@ -391,10 +395,6 @@ INPUT ./a_content/4_diskussion.tex
 INPUT ./a_content/4_diskussion.tex
 INPUT ./a_content/4_diskussion.tex
 INPUT a_content/4_diskussion.tex
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
