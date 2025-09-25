@@ -13,7 +13,13 @@ Der Fehler wurde wie folgt berechnet:
 
 \section{Aufgabe II}
 
-Zuerst wird aus Diagramm 1 die Halbwertszeit $t_{1/2}$ bestimmt. Damit lässt sich nach:
+Zuerst wird aus Diagramm 1 die Zahl der Schwingung bei halber maximal Amplitude $n_{1/2}$ bestimmt. 
+$t_{1/2}$ kann aus $n_{1/2}$ bestimmt werden durch:
+\begin{align}
+    t_{1/2} &= n_{1/2} \cdot T_0 \\
+    \Delta t_{1/2} &= \Delta n_{1/2} \cdot T_0
+\end{align}
+Danach lässt sich nach:
 \begin{equation}
     \delta = \frac{\ln 2}{t_{1/2}}
 \end{equation}
@@ -27,11 +33,7 @@ Dabei gilt für den Fehler:
     \Delta \delta = \frac{\ln 2}{t_{1/2}^2}\Delta t_{1/2}
 \end{equation}
 
-$t_{1/2}$ kann aus $n_{1/2}$ bestimmt werden durch:
-\begin{align}
-    t_{1/2} &= n_{1/2} \cdot T_0 \\
-    \Delta t_{1/2} &= \Delta n_{1/2} \cdot T_0
-\end{align}
+
 
 \subsection{Bestimmung der Massen}
 
@@ -39,21 +41,54 @@ Für die Masse allgemein gilt mit $\rho$ als Dichte und $V$ als Volumen:
 \begin{equation}
     m = \rho V
 \end{equation}
-Damit gilt für die Kugel:
+Damit gilt für die Kugel mit $\rho_K$ als Dichte von Eisen:
 
 \[m_k = (176 \pm 8) \si{\gram}\]
+
+Mit dem Fehler:
+\begin{equation}
+    \Delta m_K = 4\pi r^2 \rho_K
+\end{equation}
 Und für den Faden genähert als Zylinder mit Höhe $l'$:
 
 \[m_F = (0,2264 \pm 0,0004) \si{\gram}\]
 
-\[ \omega_0 = (3,24 \pm 0,07) \si{\Hz} \]
+\begin{equation}
+    \Delta m_K = \pi r^2 \rho_K
+\end{equation}
 
+\subsection{Bestimmung Frquenz ohne Reibung}
+Die Eigenfrequenz des Pendels kann nach Gleichung \ref{eq:ho} bestimmt werden mit $\omega_0 = \tfrac{2\pi}{T_0}$. 
 
-\[ \overline{A} = (5,2 \pm 0,6) \si{\cm}\]
+\[ \omega_0 = (3,24 ) \si{\Hz} \]
+
+\subsection{Berechnung $\varphi_0$}
+Aus Tabelle 4 kann der Mittelwert der Amplituden mit Fehler bestimmt werden:
+\[ \overline{x} = (5,2 \pm 0,6) \si{\cm}\]
+Dafür gilt für den Fehler mit Ablesefehler $\Delta a$ und statistischer Abweichung $\sigma$:
+
+\begin{equation}
+    \Delta \overline{x} = \sqrt{\sigma^2 + (\Delta a)^2}
+\end{equation}
+
+Daraus kann mit Gleichung \ref{eq:phi} $\varphi_0$ berechnet werden.
 
 \[\varphi_0 =( 0,110 \pm 0,006 )\si{\text{rad}}\]
 
-\[g = \SI{9,834 \pm 0,012}{\frac{\meter}{\second^2}}\]
+Mit dem Fehler:
+\begin{equation}
+\Delta \varphi_{0} = 
+\sqrt{ \left( \frac{l}{\overline{x}^{2} + l^{2}} \cdot \Delta \overline{x} \right)^{2} 
+    + \left( \frac{\overline{x}}{\overline{x^{2} + l^{2}}} \cdot \Delta l \right)^{2} }
+\end{equation}
+
+\subsection{Berechnung von $g$}
+
+Abschließen lässt sich daraus unter Berücksichtigung aller Korrekturen die Gravitationsbeschleunigung $g$ mit Gleichung \ref{eq:leckmich} berechnen.
+
+\[g = \SI{9,834 \pm 0,013}{\frac{\meter}{\second^2}}\]
+
+Dabei gilt für die Fehlerbestimmung:
 
 \begin{align}
 \Delta g^{2} 
