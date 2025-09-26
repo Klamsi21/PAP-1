@@ -98,14 +98,75 @@ Für die Steigung gilt:
 Daraus folgt für die Beschleunigung:
 \[\boxed{a = \SI{ 0,800 \pm 0,013}{\frac{\meter}{\second^2}}}\]
 
-
+\newpage
 \section{Aufgabe II}
 
 \subsection{Vollzylinder}
-Um die translations Energie zu bestimmmen wird die mittlere Zeit $t_m$zwischen den Lichtschranken bestimmt. Dabei gilt der Fehler:
+
+\subsubsection{Translationsenergie}
+Um die translations Energie zu bestimmmen wird die mittlere Zeit $t_m$zwischen den Lichtschranken an der Ebene nach der schiefen Ebene bestimmt. Dabei gilt der Fehler:
 \begin{equation}
     \Delta t_m = \sqrt{(\Delta t_1)^2+ (\Delta t_2)^2}
 \end{equation}
 Anschließend wird das Mittel dieser Zeiten bestimmt, mit dem Fehler nach Gleichung \ref{eq:FehlerTab}.
 
-\[\overline{t_{trans}} = \SI{0,2358 \pm 0,0017}{\second}\]
+\[\overline{t_{trans}} = \SI{0,2358 \pm 0,0011}{\second}\]
+
+Der Abstand zwischen beiden Lichtschranken beträgt $s = \SI{30,0 \pm 0,5}{\cm}$. Daraus ergibt sich nach Gleichung \ref{eq:ETrans}:
+
+\[E_{trans,voll} = \SI{0,359\pm 0,013}{\joule}\]
+
+Der Fehler berechnet sich durch:
+
+\begin{equation}
+    \Delta E_{trans} = \frac{1}{2}\sqrt{\left(\left(\frac{s}{t_{trans}}\right)^2\Delta m\right)^2 + \left(\frac{2sm}{(t_{trans})^2}\Delta s\right)^2 +\left(2\left(\frac{s^2}{(t_{trans})^3}\right)\Delta t_{trans}\right)^2}
+\end{equation}
+
+\subsubsection{Rotationsenergie}
+
+Für die Rotationsenergie gilt nach Gleichung \ref{eq:ERot}:
+
+\[E_{rot,voll} = \SI{0,179 \pm 0,007}{\joule}\]
+
+Für den Fehler gilt hier:
+\[\Delta E_{rot}=\sqrt{\frac{s^{2} \left[J^{2} \Delta r^{2} s^{2} (t_{trans})^{2} + J^{2} \Delta (t_{trans})^{2} r^{2} s^{2} + r^{2} (t_{trans})^{2} \left(J^{2} \Delta s^{2} + 0.25 \Delta J^{2} s^{2}\right)\right]}{r^{6} (t_{trans})^{6}}}\]
+Um auf die gesamte kinetische Energie zu kommen werden beide Energien addiert
+\[\Rightarrow \boxed{E_{kin, voll} = \SI{0,538 \pm 0,015}{\joule}}\]
+
+Für den Fehler gilt hier:
+\begin{equation}
+    \Delta E_{kin} = \sqrt{(\Delta E_{trans})^2 + (\Delta E_{rot})^2 }
+\end{equation}
+
+\subsubsection{Potentielle Energie}
+
+Für die potentielle Energie wird die Auflagehöhe des Zylinders benötigt. Da unten an der schiefen Ebene ebenfalls eine Platte gleicher Bauart angebracht war,
+wurde der relative Abstand dieser zum Auflagepunkt des Zylinders auf $h_s = \SI{14,2 \pm 1,0}{\cm}$ gemessen.
+Um auf die Höhe des Schwerpunkts zu kommen muss nun noch der Radius des Vollzylinders addiert werden.
+Damit gilt für die Höhe des Schwerpunkts:
+\[h_{SP} = \SI{16,7 \pm 1,0}{\cm}\]
+Dabei gilt für den Fehler:
+\begin{equation}
+    \Delta h_{SP} = \sqrt{(\Delta r)^2 + (\Delta h)^2}
+\end{equation}
+Damit gilt nach Gleichnung \ref{eq:pot}:
+\[\boxed{E_{pot,voll} = \SI{0,73 \pm 0,04}{\joule}}\]
+
+Für den Fehler gilt hier:
+
+\begin{equation}
+    \Delta E_{pot} = \sqrt{(mg\Delta h)^2 + (gh\Delta m)^2}
+\end{equation}
+
+\subsection{Hohlzylinder}
+
+Die gleichen Rechenschritte werden analog für den Holzylinder verwendet, dabei ergibt sich:
+
+\begin{itemize}
+    \item $\overline{t_{trans}} = \SI{0,257 \pm 0,012}{\second}$
+    \item $E_{trans,hohl} = \SI{0,30 \pm 0,03}{\joule}$
+    \item $E_{rot,hohl} = \SI{0,25 \pm 0,12}{\joule}$   
+    \item $h_{SP} = \SI{16,7 \pm 1,0}{\cm}$
+    \item $\boxed{E_{kin,hohl} = \SI{0,55 \pm 0,13}{\joule}}$
+    \item $\boxed{E_{pot,hohl} = \SI{0,72 \pm 0,04}{\joule}}$
+\end{itemize}
