@@ -18,7 +18,7 @@
 \contentsline {subsection}{\numberline {3.2.2}Bestimmung Frquenz ohne Reibung}{4}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Berechnung $\varphi _0$}{4}{subsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.2.4}Berechnung von $g$}{4}{subsection.3.2.4}%
-\contentsline {chapter}{\numberline {4}Zusamenfassung und Diskussion}{4}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Zusamenfassung und Diskussion}{5}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Methode 1}{5}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Methode 2}{5}{subsection.4.1.1}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

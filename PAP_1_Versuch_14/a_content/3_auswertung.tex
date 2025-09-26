@@ -62,6 +62,9 @@ Die Eigenfrequenz des Pendels kann nach Gleichung \ref{eq:ho} bestimmt werden mi
 
 \[ \omega_0 = (3,24 ) \si{\Hz} \]
 
+Für $\omega_0$ gilt hier der Wert ohne Dämpfung, da die Größenordnung von $\delta$ in Vergleich vernachlässigbar ist und $\delta$ zusätzlich quadriert wird.
+Dementsprechen hat die Dämpfung keinen Einfluss auf $\omega_0$
+
 \subsection{Berechnung $\varphi_0$}
 Aus Tabelle 4 kann der Mittelwert der Amplituden mit Fehler bestimmt werden:
 \[ \overline{x} = (5,2 \pm 0,6) \si{\cm}\]
@@ -83,10 +86,20 @@ Mit dem Fehler:
 \end{equation}
 
 \subsection{Berechnung von $g$}
+\begin{itemize}
+    \item $T_0 = 1,937435 \si{\second}$
+    \item $l = 93,42 \pm 0,12 \si{\cm}$
+    \item $r = 1,7500 \pm 0,0125 \si{\cm}$
+    \item $m_K \SI{176 \pm 8}{\gram}$
+    \item $m_F \SI{0,2264 \pm 0,0004}{\gram}$
+    \item $\rho_L = \SI{1,2041}{\cdot 10^{-3} \frac{\gram}{\cm^3}}$
+    \item $\rho_K = \SI{7,86}{ \frac{\gram}{\cm^3}}$
+    \item $ \varphi_0  = \SI{0,110 \pm 0,006}{\text{rad}}$
+\end{itemize}
 
 Abschließen lässt sich daraus unter Berücksichtigung aller Korrekturen die Gravitationsbeschleunigung $g$ mit Gleichung \ref{eq:leckmich} berechnen.
 
-\[g = \SI{9,834 \pm 0,013}{\frac{\meter}{\second^2}}\]
+\[\underline{\underline{g = \SI{9,845 \pm 0,014}{\frac{\meter}{\second^2}}}}\]
 
 Dabei gilt für die Fehlerbestimmung:
 
