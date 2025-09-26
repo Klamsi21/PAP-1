@@ -1,0 +1,111 @@
+\section{Aufgabe I}
+\subsection{Vollzylinder}
+
+Zuerst wird die theoretische Beschleunigung des Vollzylinders berechnet, dafür benötigt man das Trägheitsmoment
+um die Rotationsachse, dabei gilt für die Dichte $\rho_{Al} = \SI{2,70}{\frac{\gram}{\cm^3}}$.
+Mit der Masse $m_V = \SI{444 \pm 1}{\gram}$ und dem Radius $r = \SI{2,5000\pm 0,0025}{\cm}$ ergibt sich nach Gleichung \ref{eq:JVoll} für das Trägheitsmoment:
+
+\[ J_V = \SI{1,388 \pm 0,004}{\cdot 10^{-4} \kilogram \cdot \meter^2} \]
+
+Der Fehler für $J_V$ wird berechnet durch:
+\begin{equation}
+    \Delta J_V = \frac{1}{2}\sqrt{(r^2 \Delta m)^2 + (2mr\Delta r)^2}
+\end{equation}
+
+Damit lässt sich aus Gleichung \ref{eq:a} die Beschleunigung des Körpers berechnen:
+
+\[\boxed{a_V = \SI{1,06 \pm 0,03}{\frac{\meter}{\second^2}}}\]
+
+Dabei gilt für den Fehler:
+
+\begin{equation}
+    \Delta a=\sqrt{\frac{J^{2} \Delta m^{2}}{m^{2} \left(J + m r^{2}\right)^{2}} + \frac{4 J^{2} \Delta r^{2}}{r^{2} \left(J + m r^{2}\right)^{2}} + \frac{\Delta J^{2}}{\left(J + m r^{2}\right)^{2}} + \frac{\Delta h^{2}}{h^{2}} + \frac{\Delta l^{2}}{l^{2}}}\cdot a
+\end{equation}
+
+\subsection{Hohlzylinder}
+
+Die Rechnung erfolgt analog für den Holzylinder aus Messing. Dafür wird hier Gleichung \ref{eq: JHohl} verwendet.
+Als Masse gilt $m=\SI{442 \pm 1}{\gram}$ und für die Radien $r_2 = \SI{2,5025 \pm 0,0025}{\cm}$, $r_1 = \SI{2,0350\pm 0,0025}{\cm}$.
+
+\[ J_H = \SI{2,299 \pm 0,006}{\cdot 10^{-4} \kilogram \cdot \meter^2}\]
+
+Für den Fehler gilt:
+\begin{equation}
+    \Delta J_H=\sqrt{\frac{1}{4} \Delta m^{2} \left(r_{1}^{2} + r_{2}^{2}\right)^{2} + \Delta r_{1}^{2} m^{2} r_{1}^{2} + \Delta r_{2}^{2} m^{2} r_{2}^{2}}
+\end{equation}
+
+Daraus kann erneut die Beschleunigung mit Gleichung \ref{eq:a} berechnet werden:
+
+\[\boxed{a_V =  \SI{0,86 \pm 0,03}{\frac{\meter}{\second^2}}}\]
+
+
+\subsection{Auswertung der Messwerte}
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{c c c c c}
+        \toprule
+        Zylinder & Schranke 1 $\overline{t_1}$[s] & Schranke 2 $\overline{t_2}$[s] & Schranke 3 $\overline{t_3}$[s] & Schranke 4 $\overline{t_4}$[s] \\
+        \midrule
+        Vollzylinder & $0,4280 \pm 0,0010 $ & $ 0,7182 \pm 0.0011$ & $0,9984 \pm 0,0011 $ & $ 1,2798 \pm 0,0011$\\
+        Hohlzylinder & $0,471 \pm 0.004$ & $0,794 \pm 0,004$ & $1,1088 \pm 0,0024$ & $1,423 \pm 0,004$\\
+        \bottomrule
+    \end{tabular}
+    \caption{Mittelwerte der Zeitmessungen}
+\end{table}
+
+Der Fehler wurde brechnet mithilfe des statistischen Fehlers $\sigma_{stat}$ und dem systematischen Fehler $\Delta t_{sys}$:
+\begin{equation}
+    \Delta t = \sqrt{(\sigma_{stat})^2 + (\Delta t_{sys})^2}
+    \label{eq:FehlerTab}
+\end{equation}
+
+\subsection{Bestimmung von $a$ durch die Messung}
+
+\subsubsection{Vollzylinder}
+
+Für die Fehlerbalken in Diagramm 1 gilt folgende Formel:
+\begin{equation}
+    \Delta (t^2) = 2t\Delta t
+\end{equation}
+
+Aus dem Diagramm lässt sich die Steigung der Tredgeraden ermitteln.
+Aus:
+\begin{equation}
+    s = \frac{1}{2} at^2
+\end{equation}
+Folgt, dass die Steigung genau $\frac{2}{a}$ entsprechen muss.
+Für die Steigung gilt:
+
+\[\varsigma = \SI{2.018 \pm 0,029}{\frac{\second^2}{\meter}} \]
+Der Fehler ist heir die Differenz der Steigung zu Steigung der Fehlergeraden.
+Aus $m$ lässt sich dann $a$ berechnen als:
+\[\boxed{a = \SI{ 0,9910 \pm 0,014 }{\frac{\meter}{\second^2}}}\]
+Der Fehler wird berechnet durch:
+\begin{equation}
+    \Delta a = \frac{2}{m^2}\Delta m
+\end{equation}
+
+
+\subsubsection{Hohlzylinder}
+
+Dieselben Überlegungen gelten für den Hohlzylinder. Die Werte wurden in Diagramm 2 aufgetragen.
+
+Für die Steigung gilt:
+
+\[\varsigma = \SI{2.50 \pm 0,04}{\frac{\second^2}{\meter}} \]
+
+Daraus folgt für die Beschleunigung:
+\[\boxed{a = \SI{ 0,800 \pm 0,013}{\frac{\meter}{\second^2}}}\]
+
+
+\section{Aufgabe II}
+
+\subsection{Vollzylinder}
+Um die translations Energie zu bestimmmen wird die mittlere Zeit $t_m$zwischen den Lichtschranken bestimmt. Dabei gilt der Fehler:
+\begin{equation}
+    \Delta t_m = \sqrt{(\Delta t_1)^2+ (\Delta t_2)^2}
+\end{equation}
+Anschließend wird das Mittel dieser Zeiten bestimmt, mit dem Fehler nach Gleichung \ref{eq:FehlerTab}.
+
+\[\overline{t_{trans}} = \SI{0,2358 \pm 0,0017}{\second}\]
