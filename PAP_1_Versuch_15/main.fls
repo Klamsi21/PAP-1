@@ -375,6 +375,11 @@ INPUT ./a_content/1_einleitung.tex
 INPUT a_content/1_einleitung.tex
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
+INPUT ./Aufbau15.jpeg
+INPUT ./Aufbau15.jpeg
+INPUT ./Aufbau15.jpeg
+INPUT ./Aufbau15.jpeg
+INPUT ./Aufbau15.jpeg
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc
@@ -383,13 +388,53 @@ INPUT ./a_content/2_durchfuehrung.tex
 INPUT ./a_content/2_durchfuehrung.tex
 INPUT ./a_content/2_durchfuehrung.tex
 INPUT a_content/2_durchfuehrung.tex
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmbx10.tfm
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
+INPUT ./PAP1_15_Messprotokoll 2.pdf
 INPUT ./a_content/3_auswertung.tex
 INPUT ./a_content/3_auswertung.tex
 INPUT ./a_content/3_auswertung.tex
 INPUT ./a_content/3_auswertung.tex
 INPUT a_content/3_auswertung.tex
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmbx10.tfm
+INPUT ./Diagramme15.pdf
+INPUT ./Diagramme15.pdf
+INPUT ./Diagramme15.pdf
+INPUT ./Diagramme15.pdf
+INPUT ./Diagramme15.pdf
+INPUT ./Diagramme15.pdf
+INPUT ./Diagramme15.pdf
+INPUT ./Diagramme15.pdf
+INPUT ./Diagramme15.pdf
+INPUT ./Diagramme15.pdf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmr12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/lmmi12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
