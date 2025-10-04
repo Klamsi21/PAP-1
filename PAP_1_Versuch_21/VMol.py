@@ -9,14 +9,14 @@ def VMol(pL, T, dpL, dT):
     p = 0.75*pL- 0.9*19.82
 
     dp= np.sqrt((0.75*dpL)**2 + (0.9*dpd)**2)
-    
+    print(f"{p} \pm {dp}")
     V = p0/p * T/T0 *V0
 
-    error = np.sqrt((p0/p * dT/T0 *V0)**2 + p0/(p**2) * T/T0 *V0*0.75*dp)
+    error = np.sqrt((p0/p * dT/T0 *V0)**2 + (p0/(p**2) * T/T0 *V0*0.75*dp)**2)
 
     return V, error
 
-#print(VMol(1009, (23+273.15), 0.2, 0.5))
+print(VMol(1009, (23+273.15), 0.2, 0.5))
 
 def n(Vm, dVm, V, dV):
     n = V/Vm
@@ -24,10 +24,10 @@ def n(Vm, dVm, V, dV):
 
     return n, error
 
-print(n(25.00, 0.13, (0.0466- 0.0027), 0.00014))
+print(n(25.00, 0.04, (0.0226- 0.0013), 0.00014))
 
 def F(n, I, t, dn, dI, dt):
-    z= 2
+    z= 4
     F = (I*t)/(z*n)
 
     dF = np.sqrt(
@@ -38,4 +38,4 @@ def F(n, I, t, dn, dI, dt):
 
     return F, dF
 
-print(F(1.756*10**(-3), 0.56, 605.3, 0.011*10**(-3), 0.03, 0.3))
+print(F(8.52*10**(-4), 0.56, 605.3, 0.06*10**(-4), 0.03, 0.3))

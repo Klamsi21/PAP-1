@@ -11,4 +11,4 @@ def error(I, t, m, dI, dt, dm):
     return F, np.sqrt(term1**2 + term2**2 + term3**2)
 
 
-print(error(0.51, 1800, (80.9424-80.6283), 0.03, 3, 0.001))
+print(error(0.51, 1800, (0.3021), 0.03, 3, 0.0014))

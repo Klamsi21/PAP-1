@@ -1,39 +1,69 @@
 \section{Aufgabe I}
+In dem Ersten Veruschsaufbau besteht das Elektrolyt aus in Wasser gelöstem Kupfersulfat. Dieses liegt dissoziiert vor.
+Das Heist, dass sich die Inonenbindung trennen können und die Ionen frei vorliegen. Zwischen Inonenbindung und freien Ionen liegt ein Gleichgewicht vor.
 
+\[CuSO_4 \rightleftharpoons Cu ^{2+} + SO_4^{2-}\]
 
+Legt man nun eine Spannung an die Kupferelektroden so wandern Kupfer-Ionen aus der Lösung an die Kathode und nehmen zwei Elektronen auf. DAbei werden sie zu elementarem Kupfer reduziert,
+welcher an der Elektrode ausfällt. Simultan lösen sich an der Anode Kupferatome aus, geben zwei Elektronen ab und gehen als zweifach geladene Ionen in Lösung.
+Insgesamt bleibt also die Menge an gelöstem Kupfer gleich, da für jedes ausgelöste Kupfer, genau ein elementares Kupfer ausfällt.
+Da die Spannung niedrig genug ist reagiert das Sulfat nicht und effektiv laufen folgende Reaktionen an Anode und Kathode ab:
 \begin{align}
-    Anode&:Cu^{2+} + 2e^- \quad\rightleftharpoons  \quad Cu\\
-    Kathode &: Cu \quad\rightleftharpoons  \quad Cu^{2+} + 2e^-
+    Kathode&:Cu^{2+} + 2e^- \quad\rightarrow  \quad Cu\\
+    Anode &: Cu \quad\rightarrow  \quad Cu^{2+} + 2e^-
 \end{align}
 
 \subsection{Massenzunahme}
 
+Bei der Kathode fällt Kupfer aus was für eine Massenzunahme sorgt. Daher wurde die Platte vorher und Nachher gewogen. Dabei gilt für die Massendifferent $m$:
+\[ m= \SI{0,3021 \pm 0,0014}{\gram}\]
+
+Dabei gilt für den Fehler:
+\begin{equation}
+    \Delta m = \sqrt{(\Delta m_{vor})^2 + (\Delta m_{nach})^2}
+\end{equation}
+
+Damit kann nun $F$ mit Gleichung \ref{eq:FCu} bestimmt werden.
 
 \[F = \SI{9,7\pm 0,6}{\cdot 10^{4}\ \tfrac{\coulomb}{\mole}}\]
-
-\subsection{Massenabnahme}
-
-\[F = \SI{9,3\pm 0,5}{\cdot 10^{4}\ \tfrac{\coulomb}{\mole}}\]
 
 Der Fehler wurde berechnet durch:
 \begin{equation}
     \Delta F = \sqrt{\left(\frac{t}{zm} M \Delta I\right)^2 + \left(\frac{I}{zm} M \Delta t\right)^2 + \left(\frac{It }{z m^2} M\Delta m\right)^2}
 \end{equation}
 
+
+\subsection{Massenabnahme}
+Analog wird die Faraday-Konstante aus der Massenabnahme der Anode bestimmt:
+\[ m = \SI{0,3141 \pm 0,0014}{\gram}\]
+
+\[F = \SI{9,3\pm 0,5}{\cdot 10^{4}\ \tfrac{\coulomb}{\mole}}\]
+
+
+
 \section{Aufgabe II}
 
-\[V_{Mol} = \SI{25,00 \pm 0.13}{\tfrac{\litre}{\mole}}\]
+\[ p = \SI{738.9 \pm 0.6}{\milli \text{bar} }\]
 
+\begin{equation}
+    \Delta p = \sqrt{(\Delta p_L)^2 + (\Delta p_D^{H_2SO_4})^2}
+\end{equation}
+
+\[V_{Mol} = \SI{25,00 \pm 0.04}{\tfrac{\litre}{\mole}}\]
+
+\begin{equation}
+    \sqrt{\left(\frac{p_0}{p} \cdot \frac{\Delta T}{T_0} \cdot V_0\right)^2 + \frac{p_0}{p^2} \cdot \frac{T}{T_0} \cdot V_0 \cdot 0.75 \cdot \Delta p}
+\end{equation}
 
 \subsection{Sauerstoff}
 
-\[n = \SI{7,96 \pm 0,07}{\cdot 10 ^{-4}\mole}\]
+\[n = \SI{8,52 \pm 0,06}{\cdot 10 ^{-4}\mole}\]
 
 \[F = \SI{10,8\pm 0,6}{\cdot 10^{4}\ \tfrac{\coulomb}{\mole}}\]
 
 
 \subsection{Wasserstoff}
 
-\[n = \SI{1,756 \pm 0,011}{\cdot 10 ^{-3}\mole}\]
+\[n = \SI{1,756 \pm 0,006}{\cdot 10 ^{-3}\mole}\]
 
 \[F = \SI{9,6\pm 0,5}{\cdot 10^{4}\ \tfrac{\coulomb}{\mole}}\]
