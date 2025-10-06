@@ -25,7 +25,7 @@ Dabei gilt für den Fehler:
 
 Damit kann nun $F$ mit Gleichung \ref{eq:FCu} bestimmt werden.
 
-\[F = \SI{9,7\pm 0,6}{\cdot 10^{4}\ \tfrac{\coulomb}{\mole}}\]
+\[\boxed{F = \SI{9,7\pm 0,6}{\cdot 10^{4}\ \tfrac{\coulomb}{\mole}}}\]
 
 Der Fehler wurde berechnet durch:
 \begin{equation}
@@ -37,33 +37,75 @@ Der Fehler wurde berechnet durch:
 Analog wird die Faraday-Konstante aus der Massenabnahme der Anode bestimmt:
 \[ m = \SI{0,3141 \pm 0,0014}{\gram}\]
 
-\[F = \SI{9,3\pm 0,5}{\cdot 10^{4}\ \tfrac{\coulomb}{\mole}}\]
+\[\boxed{F = \SI{9,3\pm 0,5}{\cdot 10^{4}\ \tfrac{\coulomb}{\mole}}}\]
 
 
 
 \section{Aufgabe II}
 
-\[ p = \SI{738.9 \pm 0.6}{\milli \text{bar} }\]
+Für Aufgabe zwei wird der zweite Aufbau verwendet. Durch das dissoziieren der Säure entstehen $H_3O^+$ Kationen. Da das $SO_4^{2-}$ was als Säurerest bleibt,
+bei der angelegten Spannung nicht reagiert laufen folgende Reaktionen ab:
+
+\begin{align*}
+Kathode&: 4\,\mathrm{H_3O^+} + 4\,e^- \quad\rightarrow \quad2\,\mathrm{H_2} + 4\,\mathrm{H_2O} \\
+Anode&: 6\,\mathrm{H_2O} \quad \rightarrow \quad\mathrm{O_2} + 4\,\mathrm{H_3O^+} + 4\,e^-
+\end{align*}
+
+
+
+
+Hier ist zu berücksichtigen, dass für das Molvolumen der Sättigungsdruck der Schwefelsäure berücksichtigt werden muss.
+In dem Behältnis hatte das Elektrolyt eine Temperatur von $22,5 \pm 0,5\ ^\circ \text{C}$. Das entspricht einem Sättigungsdruck des Wassers von $\SI{19,8 \pm 0,6}{\text{Torr}}$.
+Daraus kann dann der Druck mit Gleichung \ref{eq:p} berechnet werden:
+
+\[ p = \SI{738.9 \pm 0.6}{\text{Torr} }\]
 
 \begin{equation}
     \Delta p = \sqrt{(\Delta p_L)^2 + (\Delta p_D^{H_2SO_4})^2}
 \end{equation}
 
+Damit wird anschließend das Molvolumen bei Raumtemperatur $T = 23,0 \pm 0,5\ ^\circ \text{C}$ nach Gleichung \ref{eq:VMol} bestimmt.
+
 \[V_{Mol} = \SI{25,00 \pm 0.04}{\tfrac{\litre}{\mole}}\]
 
+Für den Fehler gilt hier:
 \begin{equation}
-    \sqrt{\left(\frac{p_0}{p} \cdot \frac{\Delta T}{T_0} \cdot V_0\right)^2 + \frac{p_0}{p^2} \cdot \frac{T}{T_0} \cdot V_0 \cdot 0.75 \cdot \Delta p}
+    \Delta V_{Mol} = \sqrt{\left(\frac{p_0}{p} \cdot \frac{\Delta T}{T_0} \cdot V_{Mol}^0\right)^2 + \left(\frac{p_0}{p^2} \cdot \frac{T}{T_0} \cdot V_{Mol}^0\cdot  \Delta p\right)^2}
 \end{equation}
 
 \subsection{Sauerstoff}
 
+Die gemessene Volumendifferenz des Sauerstoffs beträgt:
+
+\[m =  \SI{21,30 \pm 0,14}{\gram}\]
+
+Daraus wird zunächst die Stoffmenge des entstandenen Sauerstoffs bestimmt nach Gleichung \ref{eq:n}:
+
 \[n = \SI{8,52 \pm 0,06}{\cdot 10 ^{-4}\mole}\]
 
-\[F = \SI{10,8\pm 0,6}{\cdot 10^{4}\ \tfrac{\coulomb}{\mole}}\]
+Dabei wird der Fehler berechnet durch:
+\begin{equation}
+    \Delta n = \sqrt{\left(\frac{1}{V_{Mol}} \cdot \Delta V\right)^2 + \left((\frac{V}{(V_{Mol})^2}) \cdot \Delta V_{Mol}\right)^2}
+\end{equation}
+
+Bei der oxidation von Sauerstoff, gibt dieser jeweis 2 Elektronen ab. Da für elementaren Sauerstoff 2 Sauerstoff oxidieren müssen, werden hier insgesamt 4 Elektronen übertragen.
+Deshalb gilt hier $z=4$. Daraus ergibt sich für $F$ nach Gleichungen \ref{eq:m} und \ref{eq:FCu}:
+
+\[\boxed{F = \SI{9,9\pm 0,5}{\cdot 10^{4}\ \tfrac{\coulomb}{\mole}}}\]
+
+Mit Fehler:
+\begin{equation}
+    \Delta F = \sqrt{\left(\frac{I}{zn}  \cdot \Delta t\right)^2 + \left(\frac{t}{zn} \cdot \Delta I\right)^2 + \left(\frac{t I}{z n^2} \cdot \Delta n\right)^2}
+\end{equation}
 
 
 \subsection{Wasserstoff}
 
+Zwei $H_3O^+$ welches durch dissoziieren der Säure entsteht, nehmen insgesamt 2 Elektronen auf, wodurch Wasser und elementarer Wasserstoff entsteht.
+Daraus ergibt sich $z=2$. Mit der Massendifferenz $m$, kann hier analog zum Sauerstoff die Faraday-Konstante $F$ bestimmt werden.
+
+\[m = \SI{43,90 \pm 0,14}{\gram}\]
+
 \[n = \SI{1,756 \pm 0,006}{\cdot 10 ^{-3}\mole}\]
 
-\[F = \SI{9,6\pm 0,5}{\cdot 10^{4}\ \tfrac{\coulomb}{\mole}}\]
+\[\boxed{F = \SI{9,6\pm 0,5}{\cdot 10^{4}\ \tfrac{\coulomb}{\mole}}}\]

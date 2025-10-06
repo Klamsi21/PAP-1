@@ -15,6 +15,8 @@
 \contentsline {subsection}{\numberline {3.1.2}Massenabnahme}{3}{subsection.3.1.2}%
 \contentsline {section}{\numberline {3.2}Aufgabe II}{4}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Sauerstoff}{4}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Wasserstoff}{4}{subsection.3.2.2}%
-\contentsline {chapter}{\numberline {4}Zusamenfassung und Diskussion}{4}{chapter.4}%
+\contentsline {subsection}{\numberline {3.2.2}Wasserstoff}{5}{subsection.3.2.2}%
+\contentsline {chapter}{\numberline {4}Zusamenfassung und Diskussion}{6}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Aufgabe I}{6}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Aufgabe II}{6}{section.4.2}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
