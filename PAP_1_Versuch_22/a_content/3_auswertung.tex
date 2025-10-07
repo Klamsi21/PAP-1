@@ -38,7 +38,7 @@ Mit:
 \begin{itemize}
     \item $ g = \SI{9,81}{\tfrac{\meter}{\second^2}}$
     \item $\rho_{Öl} =  \SI{872,2}{\tfrac{\kg}{\meter^3}}$
-    \item $\rho_{Öl} =  \SI{1,29}{\tfrac{\kg}{\meter^3}}$
+    \item $\rho_{Luft} =  \SI{1,29}{\tfrac{\kg}{\meter^3}}$
     \item $\eta_0 = \SI{1,81}{\cdot 10 ^{-5}\ \tfrac{\N \second}{\meter^2}}$
 \end{itemize}
 
@@ -69,7 +69,7 @@ Für den Fehler gilt:
 \end{align}
 
 Der Der Mittelwert aus Excel für die 5 Ladungen ergibt:
-\[q = \SI{1,57 \pm0,05}{\cdot 10^{-19}\ \coulomb}\]
+\[\boxed{q = \SI{1,57 \pm0,05}{\cdot 10^{-19}\ \coulomb}}\]
 
 \newpage
 \section{Aufgabe II}
@@ -105,9 +105,42 @@ $s$ aus der Summe ausklammern und mit dem $s$-Faktor aus der Wurzel ergibt sich 
 Setzt man in diese Formel die gegebenen Werte ein erhält man:
 Daraus ergibt sich mit dem Ablesefehler von 1 Skt der Relative Fehler von:
 
-\[\frac{\Delta q}{q} = 15\%\]
+\[\boxed{\frac{\Delta q}{q} = 15\%}\]
 
 \section{Aufgabe V}
 
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{c c c c c c c c c c c}
+        \hline
+        Messung &  $t_s$[s] &  $t_f$[s] & $v_s$[$10^{-5}$ m/s] & $v_f$[$10^{-5}$m/s] & $r_0$ [$10^{-7}$m] & $f$ & $q$[$10^{-19}$ C] \\
+        \hline
+        1 & $10,760$ & $18,590$ & $2,690 $ & $ 4,467$ & $6,656 $ & $ 0,897$ & $ 1,715$\\
+        2 & $11,040$ & $20,560$ & $2,432 $ & $ 4,529$ & $6,571 $ & $ 0,895$ & $ 1,603$\\
+        3 & $10,930$ & $21,860$ & $2,287 $ & $ 4,575$ & $6,604 $ & $ 0,896$ & $ 1,589$\\ 
+        4 & $11,740$ & $18,270$ & $2,737 $ & $ 4,259$ & $6,372 $ & $ 0,893$ & $ 1,555$\\
+        5 & $12,290$ & $20,650$ & $2,241 $ & $ 4,068$ & $6,228 $ & $ 0,890$ & $ 1,404$\\
+        \hline
+    \end{tabular}
+\end{table}
+Fehler der Einzelmessung:
+\[ \sigma = 0,11 \]
+Die Abweichung von Excel ergibt:
+\[ \sigma_X = 0,097 \approx 0,10\]
+
+Die Abweichungen stimmen in etwa überein. Die Differenz beträgt $0,01 $, weshalb das Ergebnis als in etwa übereinstimmend mit dem von Excel zu werten ist.
+Das Excel Dokument berücksichtigt deutlich mehr Teilchen als diese Rechnung.
 
 \section{Aufgabe VI}
+
+
+\[\boxed{q = \SI{1,56 \pm 0.12}{\cdot 10^{-19}\ \coulomb}}\]
+
+Verglichen mit dem Literaturwert $e =  1,602 176 634 \cdot 10^{-19} \text{C}$ ergibt sich eine abweichung von:
+$0,35\ \sigma$.
+
+Für den Wert, errechnet mit Excel ergibt sich:
+
+\[\boxed{q_X = \SI{1,630 \pm 0.013}{\cdot 10^{-19}\ \coulomb}}\]
+
+Also eine Abweichung von $2\ \sigma$ zum Literaturwert.
