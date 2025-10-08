@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1759850264.13034 "/Users/paul/Documents/Documents - Paul's MacBook Air/LaTeX/PAP_1_Versuch_21/main.tex" "main.pdf" "main" 1759850272.0277 0
-  "/Users/paul/Documents/Documents - Paul's MacBook Air/LaTeX/PAP_1_Versuch_21/main.tex" 1759849751.23623 1830 eaa18d1b79fa9bd6f20268146ff7a789 ""
+["pdflatex"] 1759916038.16757 "/Users/paul/Documents/Documents - Paul's MacBook Air/LaTeX/PAP_1_Versuch_21/main.tex" "main.pdf" "main" 1759916048.88154 0
+  "/Users/paul/Documents/Documents - Paul's MacBook Air/LaTeX/PAP_1_Versuch_21/main.tex" 1759916032.51878 1838 cfc114b02d429a23947ebda5f888a35b ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1202520719 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -204,10 +204,10 @@
   "a_content/4_diskussion.tex" 1759668666.26279 2827 4e4b4f285dd9021a1c199733173fbb6d ""
   "include/berichtclass.cls" 1757322132 13947 363bba0a81889b7acd30b436e7a092a0 ""
   "include/titlepage.tex" 1757322132 442 3effe13a9f1a7c28acbab1c3b82df085 ""
-  "main.aux" 1759850271.41349 9632 74a4c0517bb65b0fe4f94111e6d68f57 "pdflatex"
-  "main.out" 1759850269.09684 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1759849751.23623 1830 eaa18d1b79fa9bd6f20268146ff7a789 ""
-  "main.toc" 1759850271.42287 1568 31cbfe896b305a46954e5762dcc56aa3 "pdflatex"
+  "main.aux" 1759916048.31158 9632 74a4c0517bb65b0fe4f94111e6d68f57 "pdflatex"
+  "main.out" 1759916045.74722 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1759916032.51878 1838 cfc114b02d429a23947ebda5f888a35b ""
+  "main.toc" 1759916048.32604 1568 31cbfe896b305a46954e5762dcc56aa3 "pdflatex"
   (generated)
   "main.aux"
   "main.log"

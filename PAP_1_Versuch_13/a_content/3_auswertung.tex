@@ -1,3 +1,29 @@
+\begin{figure}[h!]
+    \centering
+    \includegraphics[page=1, width=.95\textwidth,]{Dias13.pdf}
+    \caption{Diagramm 1: Amplituden Resonanz 1}
+\end{figure}
+\clearpage
+\newpage
+\begin{figure}[h!]
+    \centering
+    \includegraphics[page=2, width=1\textwidth,]{Dias13.pdf}
+    \caption{Diagramm 2: Amplituden Resonanz 2}
+\end{figure}
+\newpage
+\begin{figure}[h!]
+    \centering
+    \includegraphics[page=3, width=1\textwidth,]{Dias13.pdf}
+    \caption{Diagramm 3: Amplituden Dämpfung 1}
+\end{figure}
+\newpage
+\begin{figure}[h!]
+    \centering
+    \includegraphics[page=4, width=0.95\textwidth,]{Dias13.pdf}
+    \caption{Diagramm 4: Amplituden Dämpfung 2}
+\end{figure}
+\newpage
+
 \section{Aufgabe I}
 
 \begin{table}[h!]
@@ -39,8 +65,8 @@ Die Umlaufzeiten betragen:
 
 Damit ergeben sich nach Gleichung \ref{eq:delta} die Dämpfungskonstanten:
 
-    \[\boxed{\delta_1 = \SI{0,122 \pm 0,004}{\tfrac{1}{\second}}}\notag\]
-    \[\boxed{\delta_2 = \SI{0,295 \pm 0,011}{\tfrac{1}{\second}}}\notag\]
+    \[\boxed{\delta_{a1} = \SI{0,122 \pm 0,004}{\tfrac{1}{\second}}}\notag\]
+    \[\boxed{\delta_{a2} = \SI{0,295 \pm 0,011}{\tfrac{1}{\second}}}\notag\]
 
 Fehler:
 
@@ -73,7 +99,7 @@ Der Fehler berechnet sich durch:
 
 Daraus ergibt sich mit dem Faktor $\frac{1}{4000}$,da dies der Umrechnungsfaktor zwischen Funktionengenerator und Motor ist, die Frequenz des Motors und damit die des Pendels:
 
-\[f_{res} = 0,553 \pm 0,005 \si{Hz}\]
+\[\boxed{f_{res} = 0,553 \pm 0,005 \si{Hz}}\]
 
 \subsection{Bestimmung von $\delta$ durch die Halbwertsbreite}
 
@@ -81,14 +107,15 @@ Mit den Ergebnissen aus Diagramm 3 und 4 werden mithilfe von Gleichung \ref{eq:h
 Dafür werden die Frequenzen gesucht, bei denen die Amplitude die hälfter der maximal Amplitude beträgt. Der Abstand ist dann die Halbwertsbreite $H$.
 Jedoch muss die Frequenz $f$ erst in $\omega = \frac{2 \pi}{4000} f$ umgerechnet werden.
 
-\[\boxed{\delta_1 = \SI{0,067 \pm 0,028}{\tfrac{1}{\second}}}\]
-\[\boxed{\delta_2 = \SI{0,255 \pm 0,028}{\tfrac{1}{\second}}}\]
+\[\boxed{\delta_{b1}= \SI{0,067 \pm 0,028}{\tfrac{1}{\second}}}\]
+\[\boxed{\delta_{b2} = \SI{0,255 \pm 0,028}{\tfrac{1}{\second}}}\]
 
 Der Fehler wird wie folgt berechnet:
 
 \begin{equation}
     \Delta \delta = \frac{2 \cdot \pi}{2 \cdot 4000}\sqrt{(\Delta\omega_2)^2+ (\Delta\omega_1)^2}
 \end{equation}
+\newpage
 
 \subsection{Bestimmung von $\delta$ durch Resonanzüberhöhung}
 
@@ -96,8 +123,8 @@ Für die Bestimmung der Dämpfungskonstanten mithilfe der Resonanzüberhöhung w
 Als den Wert für $b(\omega \rightarrow 0)$ wird hier jeweils der kleinste messbare Wert verwendet und für die Maximalamplituden $b(\omega')$ der jeweils abgelesene Wert.
 Aus diesen Werten können mit Gleichung \ref{eq:deltafertig} die Dämfungskonstanten bestimmt werden:
 
-\[\boxed{\delta_1 = \SI{0,10 \pm 0,03}{\tfrac{1}{\second}}}\]
-\[\boxed{\delta_2 = \SI{0,22 \pm 0,05}{\tfrac{1}{\second}}}\]
+\[\boxed{\delta_{c1} = \SI{0,10 \pm 0,03}{\tfrac{1}{\second}}}\]
+\[\boxed{\delta_{c2} = \SI{0,22 \pm 0,05}{\tfrac{1}{\second}}}\]
 
 Dabei wurde der Fehler wie folgt berechnet:
 

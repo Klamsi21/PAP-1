@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.11)  7 OCT 2025 16:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.11)  8 OCT 2025 11:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -979,7 +979,17 @@ Class scrbook Warning: Redefinition of \@makechapterhead detected.
 
 
 
-{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}])
+{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
+
+[2]
+<JPEG image-433E-B9B9-77-0.jpeg, id=91, 1003.75pt x 1202.4925pt>
+File: JPEG image-433E-B9B9-77-0.jpeg Graphic file (type jpg)
+<use JPEG image-433E-B9B9-77-0.jpeg>
+Package pdftex.def Info: JPEG image-433E-B9B9-77-0.jpeg  used on input line 109.
+(pdftex.def)             Requested size: 227.94214pt x 273.06288pt.
+)
+
+[3 <./JPEG image-433E-B9B9-77-0.jpeg>]
 chapter 2.
 
 Class scrbook Warning: Redefinition of \@makechapterhead detected.
@@ -993,44 +1003,38 @@ Class scrbook Warning: Redefinition of \@makechapterhead detected.
 (scrbook)              that will remove this deprecated code.
 
 (./a_content/2_durchfuehrung.tex
-<Versuch14.pdf, id=77, page=1, 597.51233pt x 845.0471pt>
+<Versuch14.pdf, id=97, page=1, 597.51233pt x 845.0471pt>
 File: Versuch14.pdf Graphic file (type pdf)
 <use Versuch14.pdf, page 1>
 Package pdftex.def Info: Versuch14.pdf , page1 used on input line 4.
 (pdftex.def)             Requested size: 433.08868pt x 612.50807pt.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-
-[2]
-<Versuch14.pdf, id=90, page=2, 597.51233pt x 845.0471pt>
+[4 <./Versuch14.pdf>]
+<Versuch14.pdf, id=605, page=2, 597.51233pt x 845.0471pt>
 File: Versuch14.pdf Graphic file (type pdf)
 <use Versuch14.pdf, page 2>
 Package pdftex.def Info: Versuch14.pdf , page2 used on input line 11.
 (pdftex.def)             Requested size: 455.8843pt x 644.75688pt.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Versuch14.pdf, id=91, page=3, 597.51233pt x 845.0471pt>
+[5 <./Versuch14.pdf>]
+<Versuch14.pdf, id=1000, page=3, 597.51233pt x 845.0471pt>
 File: Versuch14.pdf Graphic file (type pdf)
 <use Versuch14.pdf, page 3>
 Package pdftex.def Info: Versuch14.pdf , page3 used on input line 17.
 (pdftex.def)             Requested size: 455.8843pt x 644.75688pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Versuch14.pdf, id=92, page=4, 597.51233pt x 845.0471pt>
+[6 <./Versuch14.pdf>]
+<Versuch14.pdf, id=1629, page=4, 597.51233pt x 845.0471pt>
 File: Versuch14.pdf Graphic file (type pdf)
 <use Versuch14.pdf, page 4>
 Package pdftex.def Info: Versuch14.pdf , page4 used on input line 23.
 (pdftex.def)             Requested size: 433.08868pt x 612.50807pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-)
+[7 <./Versuch14.pdf>])
 chapter 3.
 
 Class scrbook Warning: Redefinition of \@makechapterhead detected.
@@ -1044,66 +1048,60 @@ Class scrbook Warning: Redefinition of \@makechapterhead detected.
 (scrbook)              that will remove this deprecated code.
 
 (./a_content/3_auswertung.tex
+<Dia14.pdf, id=1897, 597.23137pt x 845.1575pt>
+File: Dia14.pdf Graphic file (type pdf)
+<use Dia14.pdf>
+Package pdftex.def Info: Dia14.pdf  used on input line 3.
+(pdftex.def)             Requested size: 433.08868pt x 612.8847pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[3 <./Versuch14.pdf>]
+[8 <./Dia14.pdf>]
 
-LaTeX Warning: Text page 4 contains only floats.
-
-
-
-[4 <./Versuch14.pdf>]
-
-LaTeX Warning: Text page 5 contains only floats.
-
-
-
-[5 <./Versuch14.pdf>]
-
-[6 <./Versuch14.pdf>]
-
-[7]
+[9]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 68.
+(Font)              <12> on input line 75.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 68.
+(hyperref)                removing `math shift' on input line 75.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\varphi' on input line 68.
+(hyperref)                removing `\varphi' on input line 75.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 68.
+(hyperref)                removing `subscript' on input line 75.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 68.
+(hyperref)                removing `math shift' on input line 75.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 88.
+(hyperref)                removing `math shift' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 88.
+(hyperref)                removing `math shift' on input line 95.
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 90.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 97.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
 Package microtype Warning: I cannot find a spacing list for font
 (microtype)                `TS1/lmr/m/n/10.95' (context: `nonfrench'). Switching off
-(microtype)                spacing for this font on input line 90.
+(microtype)                spacing for this font on input line 97.
 
 
 
-[8{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}])
+[10{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}])
+
+[11]
 chapter 4.
 
 Class scrbook Warning: Redefinition of \@makechapterhead detected.
@@ -1123,9 +1121,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--94
 
 
 
-[9]
-
-[10] (./main.aux)
+[12] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1134,18 +1130,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27519 strings out of 473190
- 560383 string characters out of 5715800
- 1133992 words of memory out of 5000000
- 50140 multiletter control sequences out of 15000+600000
+ 27539 strings out of 473190
+ 560839 string characters out of 5715800
+ 1130992 words of memory out of 5000000
+ 50155 multiletter control sequences out of 15000+600000
  626933 words of font info for 138 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 122i,12n,121p,10998b,1250s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 122i,12n,121p,10998b,1246s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on main.pdf (12 pages, 10641412 bytes).
+Output written on main.pdf (14 pages, 11158486 bytes).
 PDF statistics:
- 2021 PDF objects out of 2073 (max. 8388607)
- 1387 compressed objects within 14 object streams
- 64 named destinations out of 1000 (max. 500000)
- 41161 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 2113 PDF objects out of 2487 (max. 8388607)
+ 1452 compressed objects within 15 object streams
+ 69 named destinations out of 1000 (max. 500000)
+ 41179 words of extra memory for PDF output out of 42996 (max. 10000000)
 
